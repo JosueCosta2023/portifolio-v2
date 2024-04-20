@@ -1,7 +1,10 @@
 Instalar bibliotecas
-    styled-components
+    x styled-components
+    x react router dom
+    x Material ui
+    x alimentaçao axios
+
     Loading animado aos
     menu sanduiche em mobile
     botao voltar ao topo
     site de pagina unica spa
-    alimentaçao axios

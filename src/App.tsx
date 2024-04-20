@@ -1,9 +1,10 @@
+import { AppRouter } from "./pages/routes/router"
 
 function App() {
 
   return (
     <>
-        PORTIFOLIO JOSUE
+        <AppRouter/>
     </>
   )
 }
