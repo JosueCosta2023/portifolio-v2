@@ -1,6 +1,15 @@
 :root{
-    --font-primary: 'Courier New', Courier, monospace;
-    --font-secondy:'';
-    --color-primary: white;
-    --color-secondy: black;
-}
+    /* Family font */
+    --font-fa--default:"Work Sans", sans-serif ;
+    --font-fa--special:"Poppins", sans-serif ;
+
+    /* Colors */
+    --primary-normal:#A53DFF;
+    --primary-light:#EDD8FF;
+
+    --secundary-normal:#132238;
+    --secundary-light:#333333;
+
+    --tertiary-normal:#556070;
+    --tertiary-lightPlus: #A5ACB5;
+} 
