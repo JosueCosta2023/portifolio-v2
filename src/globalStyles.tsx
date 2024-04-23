@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family:var(--font-fa--default);
     }
-    h1, h2, h3, h4, h5{
+    h1, h2, h3, h4, h5, p{
         margin: 0;
         padding: 0;
     }

@@ -9,6 +9,7 @@ export const HeaderContainier = styled.header`
 export const HContent = styled.div`
     width: 1320px;
     max-width: 100%;
+    padding: 20px 0;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
