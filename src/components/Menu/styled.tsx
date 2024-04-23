@@ -8,10 +8,12 @@ export const UlMenu = styled.ul`
     align-items: center;
     list-style: none;
     font-weight: 600;
-    & > li{
+    & > a {
         padding: 12px 18px;
         font-size: 16px;
         cursor: pointer;
+        color: var(--secundary-normal);
+        text-decoration: none;
         &:hover{
             color: var(--secundary-light);
         }
