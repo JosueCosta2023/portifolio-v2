@@ -2,7 +2,7 @@ import { HeroStyle } from "./styled"
 
 export const Hero = () => {
     return(
-        <HeroStyle>
+        <HeroStyle id="home">
             hero
         </HeroStyle>
     )

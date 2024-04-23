@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const UlMenu = styled.ul`
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
     font-weight: 600;
-    & > a {
+    & > li {
         padding: 12px 18px;
         font-size: 16px;
         cursor: pointer;

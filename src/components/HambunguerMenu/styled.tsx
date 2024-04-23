@@ -26,7 +26,7 @@ export const MenuBurguerList = styled.ul`
     -moz-box-shadow: 3px 10px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 10px 17px 0px rgba(0,0,0,0.75);
     text-transform: capitalize;
-    & > a{
+    & > li{
         font-size: 16px;
         cursor: pointer;
         color: var(--secundary-normal);

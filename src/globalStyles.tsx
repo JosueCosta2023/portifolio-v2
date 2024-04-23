@@ -9,6 +9,16 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family:var(--font-fa--default);
     }
+    h1, h2, h3, h4, h5{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        cursor: pointer;
+    }
 
 `
 
@@ -19,7 +29,6 @@ export const ButtonPrimary = styled.button`
     font-weight: bold;
     border-radius: 8px;
     border: 1px solid var(--primary-normal);
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +46,6 @@ export const ButtomWire = styled.button`
     font-weight: bold;
     border-radius: 8px;
     border: 1px solid var(--primary-normal);
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;

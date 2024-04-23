@@ -2,25 +2,26 @@ import { BiMailSend } from "react-icons/bi";
 import { ButtonPrimary } from "../../globalStyles";
 import { UlMenu } from "./styled";
 import React from "react";
-import { Link } from "react-router-dom";
+import { scrollToSection } from "../utils";
+
 
 
 
 interface MenuProps  {
     items: string[];
-    itemsRouter: string[]
+    sectionIds: string[]
 }
 
-export const Menu: React.FC<MenuProps> = ({items, itemsRouter}) => {
+export const Menu: React.FC<MenuProps> = ({items, sectionIds}) => {
 
-    console.log(itemsRouter[1])
+   
+
+    console.log(sectionIds)
+
     return(
         <UlMenu>
-            {items.map((item, index) => (  
-                       
-               <Link to={itemsRouter[index]} key={index}>
-                   <li>{item}</li>
-               </Link>
+            {items.map((item, index) => (    
+                    <li key={index} onClick={() => scrollToSection(sectionIds[index])}>{item}</li>         
             ))}
             {<ButtonPrimary>Fale Comigo <BiMailSend/> </ButtonPrimary>}
         </UlMenu>
