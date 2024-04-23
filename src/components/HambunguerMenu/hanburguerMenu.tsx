@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { BiMenuAltLeft } from "react-icons/bi"
+import { BiMailSend, BiMenuAltLeft } from "react-icons/bi"
 import { ButtomToggleMenuBurguer, MenuBurguerList } from "./styled"
+import { ButtomWire } from "../../globalStyles"
 
 
 interface HanburguerMenuProps {
@@ -16,7 +17,7 @@ export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items}) => {
     };
 
     return(
-        <div>
+        <>
             <ButtomToggleMenuBurguer onClick={toggleMenu}>
     
                     <BiMenuAltLeft/>
@@ -28,9 +29,10 @@ export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items}) => {
                         {items.map((item, index) => (
                             <li key={index}>{item}</li>
                         ))}
+                        {<ButtomWire>  Fale Comigo<BiMailSend/></ButtomWire>}
                     </MenuBurguerList>
                 )
             } 
-        </div>
+        </>
     )
 }

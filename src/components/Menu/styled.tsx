@@ -7,8 +7,17 @@ export const UlMenu = styled.ul`
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    font-weight: 600;
+    & > li{
+        padding: 12px 18px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+            color: var(--secundary-light);
+        }
+    }
     
-    @media(max-width: 600px){
+    @media(max-width: 768px){
         display: none;
     }
 `

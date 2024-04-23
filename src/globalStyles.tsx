@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import "./root.css"
 
 export const GlobalStyle = createGlobalStyle`
@@ -10,4 +10,40 @@ export const GlobalStyle = createGlobalStyle`
         font-family:var(--font-fa--default);
     }
 
+`
+
+export const ButtonPrimary = styled.button`
+    padding: 12px 24px;
+    background-color: var(--primary-normal);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid var(--primary-normal);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    &:hover{
+        background-color: white;
+        color: var(--primary-normal);
+    }
+`
+
+export const ButtomWire = styled.button`
+    padding: 12px 24px;
+    background-color: white;
+    color: var(--primary-normal);
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid var(--primary-normal);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    &:hover{
+        background-color: var(--primary-normal);
+        color: white;
+    }
 `
