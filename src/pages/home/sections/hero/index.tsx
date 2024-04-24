@@ -2,6 +2,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { ButtonPrimary } from "../../../../globalStyles";
 import {
   HeroContent,
+  HeroData,
+  HeroDataItem,
   HeroDetails,
   HeroIlustration,
   HeroInfo,
@@ -19,22 +21,22 @@ export const Hero = () => {
             <ButtonPrimary>Say Hello! <FaWhatsapp/> </ButtonPrimary>
           </HeroInfo>
 
-          <div>
-            <div>
+          <HeroData>
+            <HeroDataItem>
               <strong>10 Y</strong>
               <p>Experience</p>
-            </div>
+            </HeroDataItem>
 
-            <div>
+            <HeroDataItem>
               <strong>10 Y</strong>
               <p>Experience</p>
-            </div>
+            </HeroDataItem>
 
-            <div>
+            <HeroDataItem>
               <strong>10 Y</strong>
               <p>Experience</p>
-            </div>
-          </div>
+            </HeroDataItem>
+          </HeroData>
         </HeroDetails>
 
 

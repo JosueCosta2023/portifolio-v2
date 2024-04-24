@@ -33,6 +33,9 @@ export const ButtonPrimary = styled.button`
     justify-content: center;
     align-items: center;
     gap: 5px;
+    & > svg{
+        font-size: 18px;
+    }
     &:hover{
         background-color: white;
         color: var(--primary-normal);

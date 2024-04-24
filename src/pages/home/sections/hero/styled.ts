@@ -33,9 +33,11 @@ export const HeroDetails = styled.div`
         width: 80%;
         height: auto;
         text-align: center;
+        align-items: center;
     }
     @media(max-width: 768px){
         margin-top: 78px;
+        
     }
 
 `
@@ -55,6 +57,7 @@ export const HeroInfo = styled.div`
     width: 100%;
     padding-left: 10px;
     padding-right: 20px;
+    margin-bottom: 142px;
     & > h3{
         font-size: 72px;
         font-weight: bold;
@@ -74,5 +77,36 @@ export const HeroInfo = styled.div`
     }
     }
     
+`
+
+export const HeroData = styled.div`
+    width:648px;
+    max-width: 100%;
+    height: 106px;
+    display: flex;
+    gap: 10px;
+`
+
+export const HeroDataItem = styled.div`
+    width: 200px;
+    height: 100%;
+    background-color: var(--primary-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    & > strong{
+        font-size: 32px;
+        color: var(--secundary-normal);
+        font-weight: 900;
+    }
+    & > p{
+        font-size: 16px;
+        color: var(--tertiary-normal);
+    }
+    @media(max-width: 1024px){
+        width: 100%;
+        background-color: yellow;
+    }
 `
 
