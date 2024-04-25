@@ -105,10 +105,15 @@ export const AboutDetailsSocial = styled.div`
             width: 100%;
             display: flex;
             gap: 20px;
+            margin-top: 40px;
             @media(max-width: 768px){
                 flex-wrap: wrap;
                 align-items: center;
                 justify-content: center;
+            }
+            @media(max-width: 1024px){
+                justify-content: center;
+                align-items: center;
             }
         }
 
