@@ -2,7 +2,7 @@ import { useState } from "react"
 import { BiMailSend, BiMenuAltLeft } from "react-icons/bi"
 import { ButtomToggleMenuBurguer, MenuBurguerList } from "./styled"
 import { ButtomWire } from "../../globalStyles"
-import { scrollToSection } from "../utils";
+import { MailUrl, scrollToSection } from "../utils";
 
 
 interface HanburguerMenuProps {
@@ -32,7 +32,7 @@ export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items, sectionId
                         {items.map((item, index) => (      
                                 <li key={index} onClick={() => scrollToSection(sectionIds[index])}>{item}</li>
                         ))}
-                        {<ButtomWire>  Fale Comigo<BiMailSend/></ButtomWire>}
+                        {<ButtomWire href={MailUrl} target="_blank">  Fale Comigo<BiMailSend/></ButtomWire>}
                     </MenuBurguerList>
                 )
             } 

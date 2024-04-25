@@ -27,8 +27,8 @@ export const Home = () => {
             </nav>
         </HContent>
       </HeaderContainier>
-      
       <Hero/>
+      
       <About/>
       <Experience/>
       <Project/>

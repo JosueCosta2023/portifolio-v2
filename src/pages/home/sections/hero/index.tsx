@@ -9,6 +9,8 @@ import {
   HeroInfo,
   HeroSectionContainer,
 } from "./styled";
+import ImagemPadrao from '../../../../assets/images/perfilImage.png'
+import { WhatsappUrl } from "../../../../components/utils";
 
 export const Hero = () => {
   return (
@@ -16,31 +18,35 @@ export const Hero = () => {
       <HeroContent>
         <HeroDetails>
           <HeroInfo>
-            <h3>Hello, I’m <br/>Brooklyn Gilbert</h3>
+            <h3>Olá, eu sou <br/>Josué Costa</h3>
             <p>I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
-            <ButtonPrimary>Say Hello! <FaWhatsapp/> </ButtonPrimary>
+            <ButtonPrimary href={WhatsappUrl} target="_blank">
+                  Say Hello! <FaWhatsapp/>     
+              </ButtonPrimary>
           </HeroInfo>
 
           <HeroData>
             <HeroDataItem>
-              <strong>10 Y</strong>
+              <strong>1.5Y</strong>
               <p>Experience</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>10 Y</strong>
-              <p>Experience</p>
+              <strong>7+</strong>
+              <p>Projetos</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>10 Y</strong>
-              <p>Experience</p>
+              <strong>5</strong>
+              <p>Tecnologias</p>
             </HeroDataItem>
           </HeroData>
         </HeroDetails>
 
 
-        <HeroIlustration>Imagem</HeroIlustration>
+        <HeroIlustration>
+          <img src={ImagemPadrao} alt="imagem de perfil" />
+        </HeroIlustration>
       </HeroContent>
     </HeroSectionContainer>
   );

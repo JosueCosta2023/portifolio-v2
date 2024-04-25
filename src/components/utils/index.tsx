@@ -4,3 +4,7 @@ export const scrollToSection = (sectionId : string) => {
         section.scrollIntoView({behavior: 'smooth'})
     }
 }
+
+
+export const MailUrl = "mailto:contato_josuecosta@hotmail.com"
+export const WhatsappUrl = 'https://wa.me/65993408371'

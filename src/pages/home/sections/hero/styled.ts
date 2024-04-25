@@ -47,9 +47,18 @@ export const HeroIlustration = styled.div`
     max-width: 100%;
     height: 636px;
     margin-top: 126px;
-    background-color: blue;
+    border-radius:25px;
     @media(max-width: 1315px){
         margin-top: 16px;
+    }
+    & > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius:25px;
+    }
+    @media(max-width: 768px){
+        display: none;
     }
 `
 
@@ -68,7 +77,7 @@ export const HeroInfo = styled.div`
     & > p{
         font-size: 18px;
         color: var(--tertiary-normal);
-        margin-bottom: 24px;
+        margin-bottom: 44px;
     }
 
     @media(max-width: 425px){
@@ -85,6 +94,10 @@ export const HeroData = styled.div`
     height: 106px;
     display: flex;
     gap: 10px;
+    @media(max-width: 1024px){
+        width: 100%;
+        margin-top: -60px;
+    }
 `
 
 export const HeroDataItem = styled.div`
@@ -98,7 +111,6 @@ export const HeroDataItem = styled.div`
     & > strong{
         font-size: 32px;
         color: var(--secundary-normal);
-        font-weight: 900;
     }
     & > p{
         font-size: 16px;
@@ -106,7 +118,6 @@ export const HeroDataItem = styled.div`
     }
     @media(max-width: 1024px){
         width: 100%;
-        background-color: yellow;
     }
 `
 
