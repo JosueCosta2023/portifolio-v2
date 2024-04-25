@@ -17,8 +17,8 @@ export const AboutContentWhite = styled.div`
     background-color: white;
     border-radius: 16px;
     -webkit-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
+    box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
 `
 export const AboutContentGray = styled.div`
     width: 100%;
