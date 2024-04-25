@@ -27,10 +27,13 @@ export const ButtonWire = styled.button`
     background-color: white;
     color: var(--primary-normal);
     font-weight: bold;
+    min-width: 180px;
     border-radius: 8px;
     font-size: 14px;
     border: 1px solid var(--primary-normal);
     display: flex;
+    align-items: center;
+    gap: 3px;
     justify-content: space-around;
     align-items: center;
     max-width: 100%;

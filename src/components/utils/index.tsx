@@ -19,3 +19,9 @@ export const handleClickWhatsapp = () => {
 export const handleClickTest = () => {
     console.log("Botão clicado")
 }
+
+import File from '../../assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
+
+export const handleDonwload = () => {
+    window.open(File, '_blank');
+}
