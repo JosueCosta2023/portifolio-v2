@@ -1,14 +1,13 @@
 import { useState } from "react"
 import { BiMailSend, BiMenuAltLeft } from "react-icons/bi"
 import { ButtomToggleMenuBurguer, MenuBurguerList } from "./styled"
-import { ButtomWire } from "../../globalStyles"
-import { MailUrl, scrollToSection } from "../utils";
+import { handleClickMail, scrollToSection } from "../utils";
+import { ButtomPrimaryWire } from "../buttons/buttonPrimary";
 
 
 interface HanburguerMenuProps {
     items: string[];
     sectionIds: string[]
-   
 }
 
 export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items, sectionIds}) => {
@@ -22,9 +21,7 @@ export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items, sectionId
     return(
         <>
             <ButtomToggleMenuBurguer onClick={toggleMenu}>
-    
-                    <BiMenuAltLeft/>
-                
+                    <BiMenuAltLeft/>         
             </ButtomToggleMenuBurguer>
             {
                 isOpen && (
@@ -32,7 +29,13 @@ export const HamburguerMenu : React.FC<HanburguerMenuProps> = ({items, sectionId
                         {items.map((item, index) => (      
                                 <li key={index} onClick={() => scrollToSection(sectionIds[index])}>{item}</li>
                         ))}
-                        {<ButtomWire href={MailUrl} target="_blank">  Fale Comigo<BiMailSend/></ButtomWire>}
+                        {
+                            <ButtomPrimaryWire onClick={handleClickMail}>
+                                Fale Comigo <BiMailSend/>
+                            </ButtomPrimaryWire>
+
+                        }
+                            
                     </MenuBurguerList>
                 )
             } 

@@ -1,5 +1,4 @@
 import { FaWhatsapp } from "react-icons/fa";
-import { ButtonPrimary } from "../../../../globalStyles";
 import {
   HeroContent,
   HeroData,
@@ -10,7 +9,9 @@ import {
   HeroSectionContainer,
 } from "./styled";
 import ImagemPadrao from '../../../../assets/images/perfilImage.png'
-import { WhatsappUrl } from "../../../../components/utils";
+import { handleClickWhatsapp } from "../../../../components/utils";
+import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary";
+
 
 export const Hero = () => {
   return (
@@ -20,9 +21,9 @@ export const Hero = () => {
           <HeroInfo>
             <h3>Olá, eu sou <br/>Josué Costa</h3>
             <p>I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
-            <ButtonPrimary href={WhatsappUrl} target="_blank">
-                  Say Hello! <FaWhatsapp/>     
-              </ButtonPrimary>
+              <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
+                Say Whats <FaWhatsapp/>
+              </ButtomPrimaryNormal>
           </HeroInfo>
 
           <HeroData>

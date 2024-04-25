@@ -2,11 +2,10 @@ import {FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import { AboutContentGray, AboutContentWhite, AboutSectionStyle } from "./styled"
 import { SiFrontendmentor } from "react-icons/si"
 import ImageDefaul from '../../../../assets/images/perfilImage.png'
-import { ButtomWire, ButtonPrimary } from "../../../../globalStyles"
-import { scrollToSection } from "../../../../components/utils"
 
 
 export const About = () => {
+
     return(
         <AboutSectionStyle id="about">
             <AboutContentWhite> 
@@ -27,8 +26,6 @@ export const About = () => {
                     <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.</p>
                     <p>I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
                     <div>
-                        <ButtonPrimary>Meus Projetos</ButtonPrimary>
-                        <ButtomWire>Baixar CV</ButtomWire>
                     </div>
                 </div>
             </AboutContentWhite>

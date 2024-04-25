@@ -5,6 +5,17 @@ export const scrollToSection = (sectionId : string) => {
     }
 }
 
+export const handleClickMail = () => {
+    const MailUrl = "mailto:contato_josuecosta@hotmail.com";
+    window.location.href = MailUrl;
+}
 
-export const MailUrl = "mailto:contato_josuecosta@hotmail.com"
-export const WhatsappUrl = 'https://wa.me/65993408371'
+export const handleClickWhatsapp = () => {
+    const WhatsappUrl = 'https://wa.me/65993408371';
+    window.open(WhatsappUrl, '_blank');
+}
+
+
+export const handleClickTest = () => {
+    console.log("Botão clicado")
+}

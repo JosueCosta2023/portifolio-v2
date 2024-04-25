@@ -18,7 +18,6 @@ export const UlMenu = styled.ul`
             color: var(--secundary-light);
         }
     }
-    
     @media(max-width: 768px){
         display: none;
     }

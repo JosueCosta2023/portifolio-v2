@@ -1,11 +1,8 @@
 import { BiMailSend } from "react-icons/bi";
-import { ButtonPrimary } from "../../globalStyles";
 import { UlMenu } from "./styled";
 import React from "react";
-import { MailUrl, scrollToSection } from "../utils";
-
-
-
+import { ButtonPrimary } from "../buttons/buttonPrimary/styled";
+import { handleClickMail, scrollToSection } from "../utils";
 
 interface MenuProps  {
     items: string[];
@@ -14,16 +11,14 @@ interface MenuProps  {
 
 export const Menu: React.FC<MenuProps> = ({items, sectionIds}) => {
 
-   
-
-    console.log(sectionIds)
-
     return(
         <UlMenu>
             {items.map((item, index) => (    
                     <li key={index} onClick={() => scrollToSection(sectionIds[index])}>{item}</li>         
             ))}
-            {<ButtonPrimary href={MailUrl} target="_blank">Fale Comigo <BiMailSend/> </ButtonPrimary>}
+            {<ButtonPrimary onClick={handleClickMail}>
+                Fale Comigo <BiMailSend/> 
+            </ButtonPrimary>}
         </UlMenu>
     )
 }
