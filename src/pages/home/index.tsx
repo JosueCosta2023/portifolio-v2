@@ -30,8 +30,8 @@ export const Home = () => {
       <Hero/>
       
       <About/>
-      <Experience/>
       <Project/>
+      <Experience/>
       <Contact/>
 
       <footer>
