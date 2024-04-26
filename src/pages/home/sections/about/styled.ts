@@ -138,7 +138,7 @@ export const AboutContentGray = styled.div`
         max-width: 100%;
         margin: 0 auto;
         height: 988px;
-        @media(max-width: 1024px){
+        @media(max-width: 1340px){
             flex-direction: column;
             align-items: center;
             height: auto;
@@ -147,6 +147,9 @@ export const AboutContentGray = styled.div`
     @media(max-width: 1450px){
         margin-top: 50px;
     }
+    @media(max-width: 1450px){
+        margin-top: -50px;
+    }
 `
 
 export const AboutProccessDetails = styled.div`
@@ -154,8 +157,9 @@ export const AboutProccessDetails = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
-    @media(max-width:1024px){
+    @media(max-width:1340px){
         width: 80%;
+        text-align: center;
     }
     & > div {
         height: 600px;
@@ -173,6 +177,10 @@ export const AboutProccessDetails = styled.div`
             letter-spacing: 2px;
             margin-bottom: 16px;
             width: 529px;
+            @media(max-width: 1340px){
+                width: auto;
+                text-align: center;
+            }
         }
     }
 `
@@ -185,9 +193,17 @@ export const AboutProccessCards = styled.div`
     @media(max-width:1024px){
         width: 80%;
     }
+    @media(max-width: 425px){
+        margin-top: 150px;
+    }
     & > div {
         height: 600px;
         width: 100%;
+        @media(max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
     }
 `
 
@@ -199,9 +215,19 @@ export const ProccessTop = styled.div`
     gap: 25px;
     &> div{
         align-self: flex-start;
+        @media(max-width: 425px){
+            align-self: center;
+        }
     }
     & > div + div{
         align-self: flex-end;
+        @media(max-width: 768px){
+            margin-bottom: 25px;
+            align-self:center;
+        }
+    }
+    @media(max-width: 768px){
+        flex-direction: column;
     }
 `
 export const ProccessBottom = styled.div`
@@ -212,10 +238,20 @@ export const ProccessBottom = styled.div`
     justify-content: center;
     &> div{
         align-self: flex-start;
+        @media(max-width: 425px){
+            align-self: center;
+        }
     }
     & > div + div{
         align-self: flex-end;
+        @media(max-width: 425px){
+            align-self: center;
+        }
     }
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+   
 `
 
 export const Card = styled.div`
