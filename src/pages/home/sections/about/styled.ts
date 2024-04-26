@@ -127,12 +127,126 @@ export const AboutDetailsSocial = styled.div`
 
 export const AboutContentGray = styled.div`
     width: 100%;
-    height: 988px;
-    background-color: gray;
+    background-color: var(--tertiary-light);
     margin-top: -112px;
     position: relative;
     z-index: -20;
+    padding: 20px 0;
+    & > div{
+        display: flex;
+        width: 1320px;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 988px;
+        @media(max-width: 1024px){
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+        }
+    }
     @media(max-width: 1450px){
         margin-top: 50px;
+    }
+`
+
+export const AboutProccessDetails = styled.div`
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    @media(max-width:1024px){
+        width: 80%;
+    }
+    & > div {
+        height: 600px;
+        width: 100%;
+        & > h2{
+            font-size: 48px;
+            color: var(--secundary-normal);
+            margin-top: 180px;
+            margin-bottom: 24px;
+        }
+        & > p{
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--tertiary-normal);
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+            width: 529px;
+        }
+    }
+`
+
+export const AboutProccessCards = styled.div`
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    @media(max-width:1024px){
+        width: 80%;
+    }
+    & > div {
+        height: 600px;
+        width: 100%;
+    }
+`
+
+export const ProccessTop = styled.div`
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    &> div{
+        align-self: flex-start;
+    }
+    & > div + div{
+        align-self: flex-end;
+    }
+`
+export const ProccessBottom = styled.div`
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    &> div{
+        align-self: flex-start;
+    }
+    & > div + div{
+        align-self: flex-end;
+    }
+`
+
+export const Card = styled.div`
+    width: 312px;
+    height: 276px;
+    background-color: white;
+    align-self: flex-start;
+    border-radius: 12px;
+    & > span {
+        width: 72px;
+        height: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        background-color: var(--primary-normal);
+        color: white;
+        margin: 32px 0px 32px 32px;
+        font-size: 50px;
+        
+    }
+    & > h3 {
+        font-size: 20px;
+        color: var(--secundary-normal);
+        margin-left: 32px;
+        margin-bottom: 12px;
+    }
+    & > p{
+        font-size: 16px;
+        color: var(--tertiary-normal);
+        letter-spacing: 2px;
+        margin-left: 32px;
     }
 `
