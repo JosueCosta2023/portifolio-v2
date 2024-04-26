@@ -261,6 +261,9 @@ export const Card = styled.div`
     align-self: flex-start;
     border-radius: 12px;
     padding: 32px;
+    -webkit-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
+        -moz-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
+        box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
     & > span {
         width: 72px;
         height: 72px;
