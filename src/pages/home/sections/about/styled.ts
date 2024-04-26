@@ -219,11 +219,12 @@ export const ProccessBottom = styled.div`
 `
 
 export const Card = styled.div`
-    width: 312px;
+    min-width: 312px;
     height: 276px;
     background-color: white;
     align-self: flex-start;
     border-radius: 12px;
+    padding: 32px;
     & > span {
         width: 72px;
         height: 72px;
@@ -233,20 +234,20 @@ export const Card = styled.div`
         border-radius: 6px;
         background-color: var(--primary-normal);
         color: white;
-        margin: 32px 0px 32px 32px;
+        margin-bottom: 22px;
         font-size: 50px;
         
     }
     & > h3 {
         font-size: 20px;
         color: var(--secundary-normal);
-        margin-left: 32px;
+        /* margin-left: 32px; */
         margin-bottom: 12px;
     }
     & > p{
         font-size: 16px;
         color: var(--tertiary-normal);
         letter-spacing: 2px;
-        margin-left: 32px;
+        /* margin-left: 32px; */
     }
 `

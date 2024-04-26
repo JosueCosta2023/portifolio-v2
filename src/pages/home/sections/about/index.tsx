@@ -68,7 +68,7 @@ export const About = () => {
                                 <Card>
                                     <span><FaFigma/> </span>
                                     <h3>Layouts Profissional</h3>
-                                    <p>Figma é uma ferramenta de design colaborativo baseada em nuvem, ideal para criar protótipos, interfaces de usuário e designs digitais.</p>
+                                    <p>Figma é uma ferramenta de design colaborativo baseada em nuvem, ideal para criar protótipos e designs digitais.</p>
                                 </Card>
                             </ProccessTop>
                             <ProccessBottom>
