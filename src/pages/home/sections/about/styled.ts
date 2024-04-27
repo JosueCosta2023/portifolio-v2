@@ -39,13 +39,16 @@ export const AboutImageSocial = styled.div`
     justify-content: center;
     position: relative;
     & > div{
-        width: 424px;
-        min-width: 320px;
+        width: 350px;
         height: 468px;
+        min-width: 280px;
         border-radius: 10px;
         -webkit-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
         -moz-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
         box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.75);
+        @media(max-width: 450px){
+            width: 300px;
+        }
     }
     & > div > img{
         border-radius: 10px;
@@ -90,11 +93,15 @@ export const AboutDetailsSocial = styled.div`
     & > div{
         width: 536px;
         height: auto;
+       
         & > h2 {
             font-weight: 600;
             font-size: 48px;
             margin-bottom: 32px;
             color: var(--secundary-normal);
+            @media(max-width: 768px){
+                font-size: 38px;
+            }
         }
         & > p{
             font-size: 18px;
