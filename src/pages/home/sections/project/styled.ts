@@ -7,6 +7,7 @@ export const ProjectSectionContainer = styled.section`
     & > div{
         width: 1320px;
         height: 100%;
+        max-width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -41,11 +42,17 @@ export const ContentTitle = styled.div`
     }
 `
 export const ContentCards = styled.div`
-    width: 100%;
+    height: 600px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 50px;
+    @media(max-width: 10248px){
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
 `
 
 export const Card = styled.div`

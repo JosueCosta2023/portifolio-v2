@@ -35,6 +35,7 @@ export const Project = () => {
                             </div>
                         </div>
                     </Card>
+
                     <Card>
                         <img src={ImageDefault} alt="" />
                         <div>
@@ -51,6 +52,7 @@ export const Project = () => {
                             </div>
                         </div>
                     </Card>
+
                     <Card>
                         <img src={ImageDefault} alt="" />
                         <div>
@@ -67,6 +69,58 @@ export const Project = () => {
                             </div>
                         </div>
                     </Card>
+
+                    <Card>
+                        <img src={ImageDefault} alt="" />
+                        <div>
+                            <span>UI-UX DESIGNER</span>
+                            <h3>Product Admin Dashboard</h3>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Github <FaGithub/>
+                                </ButtomPrimaryWire>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Deploy <FaDeploydog/>
+                                </ButtomPrimaryWire>
+                            </div>
+                        </div>
+                    </Card>
+
+                    <Card>
+                        <img src={ImageDefault} alt="" />
+                        <div>
+                            <span>UI-UX DESIGNER</span>
+                            <h3>Product Admin Dashboard</h3>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Github <FaGithub/>
+                                </ButtomPrimaryWire>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Deploy <FaDeploydog/>
+                                </ButtomPrimaryWire>
+                            </div>
+                        </div>
+                    </Card>
+
+                    <Card>
+                        <img src={ImageDefault} alt="" />
+                        <div>
+                            <span>UI-UX DESIGNER</span>
+                            <h3>Product Admin Dashboard</h3>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Github <FaGithub/>
+                                </ButtomPrimaryWire>
+                                <ButtomPrimaryWire onClick={handleFunction}>
+                                    Deploy <FaDeploydog/>
+                                </ButtomPrimaryWire>
+                            </div>
+                        </div>
+                    </Card>
+                         
                 </ContentCards>
 
                 <ButtomPrimaryNormal onClick={handleFunction}>
