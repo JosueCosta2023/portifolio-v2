@@ -50,6 +50,7 @@ export const ContentCards = styled.div`
     margin-bottom: 50px;
     @media(max-width: 10248px){
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         height: auto;
     }
@@ -59,8 +60,12 @@ export const Card = styled.div`
     width: 424px;
     min-width: 320px;
     height: 476px;
-    border: 1px solid black;
+    border: 1px solid var(--tertiary-lightPlus);
     border-radius: 15px;
+    @media(max-width: 460px){
+        width: 90%;
+        height: auto;
+    }
     & > img{
         width: 100%;
         height: 248px;
@@ -93,6 +98,10 @@ export const Card = styled.div`
             justify-content: space-between;
             & > button {
                 font-size: 20px;
+            }
+            @media(max-width: 460px){
+                width: 100%;
+                flex-direction: column;
             }
         }
     }
