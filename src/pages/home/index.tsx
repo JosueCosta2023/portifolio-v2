@@ -1,6 +1,7 @@
 import { HamburguerMenu } from "../../components/HambunguerMenu/hanburguerMenu";
 import { Menu } from "../../components/Menu/menu";
 import { About } from "./sections/about";
+import { CallClients } from "./sections/call";
 import { Contact } from "./sections/contact/contact";
 import { Experience } from "./sections/experience/experience";
 import { Hero } from "./sections/hero";
@@ -31,6 +32,7 @@ export const Home = () => {
       
       <About/>
       <Project/>
+      <CallClients/>
       <Experience/>
       <Contact/>
 
