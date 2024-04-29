@@ -17,9 +17,18 @@ export const Experience = () => {
 
                 <ExpirienceCardsContent>
                     <div>
-                        <ExperienceCard>card 01</ExperienceCard>
-                        <ExperienceCard>card 02</ExperienceCard>
-                        <ExperienceCard>card 03</ExperienceCard>
+                        <ExperienceCard>
+                            <h2>User Experience (UX)</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                        </ExperienceCard>
+                        <ExperienceCard>
+                            <h2>User Experience (UX)</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                        </ExperienceCard>
+                        <ExperienceCard>
+                            <h2>User Experience (UX)</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.</p>
+                        </ExperienceCard>
                     </div>
                 </ExpirienceCardsContent>
             </div>
