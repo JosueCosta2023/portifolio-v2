@@ -6,7 +6,7 @@ import { Contact } from "./sections/contact/contact";
 import { Experience } from "./sections/experience/experience";
 import { Hero } from "./sections/hero";
 import { Project } from "./sections/project/project";
-import { HContent, HeaderContainier, Logo } from "./style";
+import { FooterContainer, HContent, HeaderContainier, Logo } from "./style";
 
 export const Home = () => {
 
@@ -36,9 +36,9 @@ export const Home = () => {
       <Experience/>
       <Contact/>
 
-      <footer>
+      <FooterContainer>
         Fim do site
-      </footer>
+      </FooterContainer>
     </>
   );
 };

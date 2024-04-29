@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-
 export const HeaderContainier = styled.header`
     width: 100%;
     height: auto;
 `
-
 export const HContent = styled.div`
     width: 1320px;
     max-width: 100%;
@@ -37,7 +35,6 @@ export const HContent = styled.div`
     }
     
 `
-
 export const Logo = styled.div`
     display: flex;
     align-items: center;
@@ -61,4 +58,11 @@ export const Logo = styled.div`
         font-family: var(--font-fa--default);
         font-weight: bold;
     }
+`
+
+export const FooterContainer = styled.footer`
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    margin-top: -90px;
 `
