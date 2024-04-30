@@ -2,7 +2,7 @@ import { CiLocationOn } from "react-icons/ci"
 import { BiMailSend, BiPhoneCall } from "react-icons/bi"
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import { SiFrontendmentor } from "react-icons/si"
-import { ContactAddressContent, ContactFormContent, ContactSectionContainer } from "./styled"
+import { ContactAddressCard, ContactAddressContent, ContactFormContent, ContactSectionContainer } from "./styled"
 
 export const Contact = () => {
     return(
@@ -15,7 +15,7 @@ export const Contact = () => {
                     </div>
 
                     <div>
-                            <div>
+                            <ContactAddressCard>
                                 <span>
                                     <CiLocationOn/>
                                 </span>
@@ -23,9 +23,9 @@ export const Contact = () => {
                                     <span>Address</span>
                                     <p>New Mexico 31114</p>
                                 </div>
-                            </div>
+                            </ContactAddressCard>
 
-                            <div>
+                            <ContactAddressCard>
                                 <span>
                                     <BiMailSend/>
                                 </span>
@@ -33,9 +33,9 @@ export const Contact = () => {
                                     <span>My Email</span>
                                     <p>New Mexico 31114</p>
                                 </div>
-                            </div>
+                            </ContactAddressCard>
 
-                            <div>
+                            <ContactAddressCard>
                                 <span>
                                     <BiPhoneCall/>
                                 </span>
@@ -43,9 +43,9 @@ export const Contact = () => {
                                     <span>Call me Now</span>
                                     <p>New Mexico 31114</p>
                                 </div>
-                            </div>
+                            </ContactAddressCard>
                     </div>
-                    
+
                     <ul>
                         <li><FaWhatsapp/></li>
                         <li><FaInstagram/> </li>
