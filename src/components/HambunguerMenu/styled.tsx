@@ -13,7 +13,7 @@ export const ButtomToggleMenuBurguer = styled.button`
 
 `
 export const MenuBurguerList = styled.ul`
-    width: 190px;
+    width: 210px;
     height: auto;
     background-color: white;
     padding: 20px;
