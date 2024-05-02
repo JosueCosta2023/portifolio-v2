@@ -62,7 +62,23 @@ export const Logo = styled.div`
 
 export const FooterContainer = styled.footer`
     width: 100%;
-    height: 30vh;
-    background-color: black;
+    height: 300px;
+    background-color: var(--secundary-normal);
     margin-top: -90px;
+    padding-top: 150px;
+`
+export const FContent = styled.div`
+    width: 1320px;
+    max-width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+   font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    
+
+
 `

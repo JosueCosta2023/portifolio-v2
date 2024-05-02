@@ -1,3 +1,4 @@
+import { BackToTopButtom } from "../../components/ButtomToTop";
 import { HamburguerMenu } from "../../components/HambunguerMenu/hanburguerMenu";
 import { Menu } from "../../components/Menu/menu";
 import { About } from "./sections/about";
@@ -6,7 +7,7 @@ import { Contact } from "./sections/contact/contact";
 import { Experience } from "./sections/experience/experience";
 import { Hero } from "./sections/hero";
 import { Project } from "./sections/project/project";
-import { FooterContainer, HContent, HeaderContainier, Logo } from "./style";
+import { FContent, FooterContainer, HContent, HeaderContainier, Logo } from "./style";
 
 export const Home = () => {
 
@@ -28,6 +29,7 @@ export const Home = () => {
             </nav>
         </HContent>
       </HeaderContainier>
+      <BackToTopButtom/>
       <Hero/>
       
       <About/>
@@ -37,7 +39,9 @@ export const Home = () => {
       <Contact/>
 
       <FooterContainer>
-        Fim do site
+           <FContent>
+              <p>Copyright © 2024-2025 Josué.</p>
+           </FContent>
       </FooterContainer>
     </>
   );

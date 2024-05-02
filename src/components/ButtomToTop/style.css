@@ -1,0 +1,31 @@
+.back-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    padding: 12px 24px;
+    opacity: 0;
+    z-index: 9999;
+    background-color: #A53DFF;
+    border: 1px solid #A53DFF;
+    color: white;
+    font-weight: bold;
+    font-family: "Work Sans";
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.back-to-top:hover{
+    border: 1px solid #A53DFF;
+    background-color: white;
+    color: #A53DFF;
+}
+
+.back-to-top.show{
+    opacity: 0;
+}
+
+.back-to-top.hide{
+    opacity: 1;
+}
