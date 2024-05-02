@@ -133,7 +133,7 @@ export const ContactAddressCard = styled.div`
             display: block;
         }
         & > p{
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 600;
             color: var(--secundary-normal);
             @media(max-width: 380px){

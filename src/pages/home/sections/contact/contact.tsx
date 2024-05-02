@@ -31,8 +31,8 @@ export const Contact = () => {
             <div>
                 <ContactAddressContent>
                     <div>
-                        <h2>Let s discuss your Project</h2>
-                        <p>There are many variations of passages of Lorem Ipsu available. but the majority have suffered alte.</p>
+                        <h2>Vamos trabalhar juntos? </h2>
+                        <p>Se você chegou até aqui, é hora de transformar sua ideia em realidade. Estou pronto para ouvir suas necessidades, resolver seus desafios e criar algo extraordinário.</p>
                     </div>
 
                     <div>
@@ -41,8 +41,8 @@ export const Contact = () => {
                                     <CiLocationOn/>
                                 </span>
                                 <div>
-                                    <span>Address</span>
-                                    <p>New Mexico 31114</p>
+                                    <span>Endereço:</span>
+                                    <p>São josé do Rio Claro - MT, Brazil</p>
                                 </div>
                             </ContactAddressCard>
 
@@ -51,8 +51,8 @@ export const Contact = () => {
                                     <BiMailSend/>
                                 </span>
                                 <div>
-                                    <span>My Email</span>
-                                    <p>New Mexico 31114</p>
+                                    <span>Meu Email</span>
+                                    <p>contato_josuecosta@hotmail.com</p>
                                 </div>
                             </ContactAddressCard>
 
@@ -61,8 +61,8 @@ export const Contact = () => {
                                     <BiPhoneCall/>
                                 </span>
                                 <div>
-                                    <span>Call me Now</span>
-                                    <p>New Mexico 31114</p>
+                                    <span>Meu Telefone</span>
+                                    <p>65 9 9340-8371</p>
                                 </div>
                             </ContactAddressCard>
                     </div>
@@ -78,8 +78,9 @@ export const Contact = () => {
 
                 <ContactFormContent > 
                     <form >
-                        <p>There are many variations of passages of Lorem Ipsu available,
-                        but the majority have suffered alte.</p>
+                        <p>
+                        Deixe-me saber como posso ajudar. Preencha o formulário abaixo e estarei pronto para iniciar nossa jornada rumo ao seu próximo projeto incrível
+                        </p>
                         <InputForm>
                             {errors.name && <span>{errors.name.message}</span>}
                             <input type="text" 

@@ -4,15 +4,15 @@ import { Menu } from "../../components/Menu/menu";
 import { About } from "./sections/about";
 import { CallClients } from "./sections/call";
 import { Contact } from "./sections/contact/contact";
-import { Experience } from "./sections/experience/experience";
+import { Experience } from "./sections/softtSkill/softskill";
 import { Hero } from "./sections/hero";
 import { Project } from "./sections/project/project";
 import { FContent, FooterContainer, HContent, HeaderContainier, Logo } from "./style";
 
 export const Home = () => {
 
-  const MenuItens = ['Principal', 'Sobre','Experiencias','Projetos', 'Contato' ]
-  const sectionId = ['home','about','experience','project','contact']
+  const MenuItens = ['Principal', 'Sobre','SoftSkills','Projetos', 'Contato' ]
+  const sectionId = ['home','about','soft-skills','project','contact']
 
   return (
     <>

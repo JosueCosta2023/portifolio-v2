@@ -14,62 +14,10 @@ export const Project = () => {
            <div>
                 <ContentTitle>
                     <h2>Portfolio</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration.</p>
+                    <p>Explore meu portfólio e entre em contato para discutir como podemos trabalhar juntos para alcançar seus objetivos digitais.</p>
                 </ContentTitle>
 
                 <ContentCards>
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
-
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
-
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
-
                     <Card>
                         <img src={ImageDefault} alt="" />
                         <div>

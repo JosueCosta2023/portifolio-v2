@@ -9,7 +9,7 @@ export const CallSectionContainer = styled.section`
     align-items: center;
     padding: 100px 0px;
     & > div{
-        width: 619px;
+        width: 819px;
         max-width: 70%;
         text-align: center;
         & > h2{

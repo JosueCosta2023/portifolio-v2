@@ -7,13 +7,15 @@ export const CallClients = () => {
   return (
     <CallSectionContainer>
       <div>
-        <h2>Do you have Project Idia? Let's discuss your project!</h2>
+        <h2>Você tem uma ideia incrível para um site, mas não sabe por onde começar? </h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
+        Deixe-me ajudar a tornar seus sonhos digitais uma realidade!
+        </p>
+        <p>
+        Como desenvolvedor frontend dedicado, estou aqui para transformar sua visão em um produto digital impressionante. Desde websites elegantes até aplicativos interativos, estou pronto para colaborar e trazer sua ideia à vida.
         </p>
         <ButtomPrimaryNormal onClick={handleClickTest}>
-          Let’s work Together
+          Vamos trabalhar Juntos!
           <BsArrowRight />
         </ButtomPrimaryNormal>
       </div>
