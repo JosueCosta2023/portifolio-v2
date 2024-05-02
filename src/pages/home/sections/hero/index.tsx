@@ -19,8 +19,8 @@ export const Hero = () => {
       <HeroContent>
         <HeroDetails>
           <HeroInfo>
-            <h3>Olá, eu sou <br/>Josué Costa</h3>
-            <p>I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+            <h3>Desenvolvedor Frontend <br/>Apaixonado</h3>
+            <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor frontend com foco em criar experiências digitais envolventes e funcionais. Minha paixão pela tecnologia me impulsiona a explorar novas ideias e aprimorar constantemente minhas habilidades..</p>
               <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
                 Say Whats <FaWhatsapp/>
               </ButtomPrimaryNormal>

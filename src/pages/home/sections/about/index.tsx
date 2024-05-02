@@ -28,9 +28,12 @@ export const About = () => {
 
                 <AboutDetailsSocial>
                     <div>
-                        <h2>I am Professional User Experience Designer</h2>
-                        <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.</p>
-                        <p>I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
+                        <h2> De Infraestrutura de TI para Desenvolvimento Frontend</h2>
+                        <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento frontend.
+                        Com uma sólida base em tecnologia da informação e infraestrutura, estou entusiasmado em aplicar minha experiência para criar interfaces digitais impressionantes e funcionais. Estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript e frameworks populares como React.</p>
+                        <p>
+                        Minha jornada no frontend é impulsionada pelo desejo de construir produtos interativos e acessíveis que proporcionem experiências positivas aos usuários. Estou animado para explorar novos desafios, colaborar com equipes criativas e contribuir para projetos inovadores.
+                        </p>
                         <div>
                             <ButtomPrimaryNormal onClick={() => scrollToSection('project')}>
                                 Meus Projetos
@@ -50,9 +53,13 @@ export const About = () => {
                 <div>
                     <AboutProccessDetails>
                         <div>
-                            <h2>Work Process</h2>
-                            <p>No desenvolvimento de páginas web, começamos com estruturação HTML semântica para acessibilidade e SEO. O Figma auxilia no design colaborativo e prototipagem. JavaScript adiciona interatividade e aprimora a experiência do usuário.</p>
-                            <p>Finalmente, o GitHub permite controle de versão e colaboração eficaz, culminando na publicação de um produto final confiável e acessível para os clientes.</p>
+                            <h2>Como organizo o desenvolvimento de meus projetos?</h2>
+                            <p>
+                            Ao iniciar um projeto de desenvolvimento web, adoto um fluxo de trabalho estruturado para garantir resultados de alta qualidade e eficiência. Aqui está uma visão geral do meu processo:
+                            </p>
+                            <p>
+                            Este fluxo de trabalho cuidadosamente planejado me permite criar websites robustos, responsivos e intuitivos, mantendo-me organizado e possibilitando uma colaboração eficaz com outros membros da equipe, quando aplicável.
+                            </p>
                         </div>
                     </AboutProccessDetails>
 
@@ -60,27 +67,33 @@ export const About = () => {
                         <div>
                             <ProccessTop>
                                 <Card>
-                                    <span><FaHtml5/></span>
-                                    <h3>Estrutura Semântica</h3>
-                                    <p>HTML e CSS profissionais criam layouts responsivos, acessíveis e visualmente atraentes para websites de alto desempenho.</p>
-
-                                </Card>
-                                <Card>
                                     <span><FaFigma/> </span>
                                     <h3>Layouts Profissional</h3>
-                                    <p>Figma é uma ferramenta de design colaborativo baseada em nuvem, ideal para criar protótipos e designs digitais.</p>
+                                    <p>
+                                    Estudo cuidadosamente as interfaces, layouts e interações propostas para entender a visão geral e os requisitos do projeto.
+                                    </p>
+                                </Card>
+                                <Card>
+                                    <span><FaHtml5/></span>
+                                    <h3>Estrutura Semântica</h3>
+                                    <p>
+                                    Priorizo a acessibilidade e a estruturação adequada do conteúdo para garantir uma base sólida para o desenvolvimento.
+                                    </p>
+
                                 </Card>
                             </ProccessTop>
                             <ProccessBottom>
                                 <Card>
                                     <span><MdJavascript/></span>
                                     <h3>Alto Desempenho</h3>
-                                    <p>JavaScript impulsiona interatividade, melhorando a experiência do usuário e otimizando a performance de aplicativos.</p>
+                                    <p>Para tornar o site mais dinâmico e interativo, incorporo JavaScript para atender aos requisitos do projeto.</p>
                                 </Card>
                                 <Card>
                                     <span><FaGithub/> </span>
                                     <h3>Versionamento</h3>
-                                    <p>Versionamento no GitHub garante entrega estável e transparente, facilitando ajustes, resultando em produtos mais confiáveis.</p>
+                                    <p>
+                                    Durante todo o processo de desenvolvimento, faço uso extensivo do Git e Github para controle de versão. 
+                                    </p>
                                 </Card>
                             </ProccessBottom>
                         </div>

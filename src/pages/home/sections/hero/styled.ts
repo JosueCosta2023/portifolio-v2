@@ -68,7 +68,7 @@ export const HeroInfo = styled.div`
     padding-right: 20px;
     margin-bottom: 142px;
     & > h3{
-        font-size: 72px;
+        font-size: 52px;
         font-weight: bold;
         color: var(--secundary-nomal);
         margin-bottom: 24px;

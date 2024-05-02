@@ -30,8 +30,8 @@ export const Home = () => {
         </HContent>
       </HeaderContainier>
       <BackToTopButtom/>
-      <Hero/>
       
+      <Hero/>
       <About/>
       <Project/>
       <CallClients/>
