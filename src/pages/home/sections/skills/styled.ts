@@ -22,6 +22,34 @@ export const ExperienceSectionContainer = styled.section`
     
     `
 
+export const ExperienceHardSkilss = styled.div`
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -100px;
+    & > h3{
+        font-size: 38px;
+        color: var(--secundary-normal);
+    }
+    & > ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 60px ;
+        padding: 0px 30px;
+        & > li{
+            font-size: 68px;
+            width: 100px;
+        }
+    }
+
+`
+
 export const ExpirienceDetailsContent = styled.div`
     width: 50%;
     height: 100%;

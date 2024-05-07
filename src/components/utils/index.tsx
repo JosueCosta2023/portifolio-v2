@@ -1,3 +1,6 @@
+import File from '../../assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
+
+
 export const scrollToSection = (sectionId : string) => {
     const section = document.getElementById(sectionId) as HTMLAnchorElement
     if(section){
@@ -20,8 +23,10 @@ export const handleClickTest = () => {
     console.log("Botão clicado")
 }
 
-import File from '../../assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
-
 export const handleDonwload = () => {
     window.open(File, '_blank');
 }
+
+
+
+
