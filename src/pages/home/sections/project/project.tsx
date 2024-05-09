@@ -2,12 +2,42 @@ import { ButtomPrimaryNormal} from "../../../../components/buttons/buttonPrimary
 import { Card, ContentCards, ContentTitle, ProjectSectionContainer } from "./styled"
 import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
-import Projects from '../../../../assets/json/icones.json'
+import { useEffect, useState } from "react"
+import axios from "axios"
+
+type Projeto = {
+    "name":"string",
+    "description":"string",
+    "repository":"string",
+    "deploy"?:"string",
+    "image":"string",
+    "tecnology":"string"
+}
+
 
 export const Project = () => {
+
+    const [projetos, setProjetos] = useState<Projeto[]>([])
+    const [VisibleProjetos, setVisibleProjetos] = useState<Projeto[]>([])
+
+
+    useEffect(() => {
+        axios.get<{projects: Projeto[]}>('/src/assets/json/icones.json').then((response) => {
+            const dados = response.data.projects
+            setProjetos(dados)
+            setVisibleProjetos(dados.slice(0,3))
+            console.log(VisibleProjetos)
+        })
+
+
+    }, [])
     const handleFunction = () => {
-        alert("Teste")
+       const currentLenght = VisibleProjetos.length;
+       const nextProject = projetos.slice(currentLenght, currentLenght + 3)
+       setVisibleProjetos([...VisibleProjetos, ...nextProject])
     }
+
+
     return(
         <ProjectSectionContainer id="project">
            <div>
@@ -18,7 +48,7 @@ export const Project = () => {
 
                 <ContentCards>
                     {
-                        Projects.projects.slice(0,3).map((project, index) => (
+                        VisibleProjetos.map((project, index) => (
                             <Card key={index}>
                                 <img src={project.image} alt={project.name} />
                                 <div>
@@ -31,7 +61,7 @@ export const Project = () => {
                                         </a>
 
                                         {
-                                            project.deploy === "" ? "Necessário instalação local" :
+                                            project.deploy === null ? "Necessário instalação local" :
                                         <a href={project.deploy} target="_blank">
                                             Deploy <FaDeploydog/>
                                         </a>
@@ -43,9 +73,14 @@ export const Project = () => {
                     }
                 </ContentCards>
 
-                <ButtomPrimaryNormal onClick={handleFunction}>
-                    Load More
-                </ButtomPrimaryNormal>
+                {
+                    VisibleProjetos.length < projetos.length && (
+                        <ButtomPrimaryNormal onClick={handleFunction}>
+                            Carregar Mais
+                        </ButtomPrimaryNormal>
+                    )
+                }
+
            </div>
         </ProjectSectionContainer>
     )

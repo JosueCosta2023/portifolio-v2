@@ -82,7 +82,7 @@
             "name":"Pokedex Avançada",
             "description":"Explore os Pokémon com nossa Pokédex React! Consumindo a API Pokédex, alternando entre temas Moon e Sun para uma experiência envolvente.",
             "repository":"https://github.com/JosueCosta2023/pokedex-go",
-            "deploy":"",
+            "deploy":null,
             "image":"/src/assets/images/project/projeto6.png",
             "tecnology":"React, JavaScript e api-Rest"
         },
@@ -106,7 +106,7 @@
             "name":"Seja o Herói",
             "description":"Este sistema tem por finalidade unir ONG's e pessoas dispostas a tornar o mundo um lugar melhor para os animais.",
             "repository":"https://github.com/JosueCosta2023/beTheHero?tab=readme-ov-file",
-            "deploy":"",
+            "deploy":null,
             "image":"/src/assets/images/project/projeto9.png",
             "tecnology":"react, javascript, react-native, super-test e sQlite"
         },
