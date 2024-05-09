@@ -81,6 +81,7 @@ export const Card = styled.div`
             color: var(--tertiary-lightPlus);
             display: block;
             margin-bottom: 4px;
+            text-transform: uppercase;
         }
         & > h3 {
             font-size: 18px;
@@ -96,8 +97,33 @@ export const Card = styled.div`
             display: flex;
             gap: 5px;
             justify-content: space-between;
-            & > button {
-                font-size: 20px;
+            text-align: center;
+            align-items: center;
+            color: var(--primary-normal);
+            font-weight: bold;
+            font-size: 14px;
+            & > a {
+                padding: 12px 24px;
+                background-color: white;
+                color: var(--primary-normal);
+                font-weight: bold;
+                min-width: 180px;
+                border-radius: 8px;
+                font-size: 14px;
+                border: 1px solid var(--primary-normal);
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                justify-content: space-around;
+                align-items: center;
+                max-width: 100%;
+                &:hover{
+                    background-color: var(--primary-normal);
+                    color: white;
+                }
+                & > svg{
+                    font-size: 20px;
+                }
             }
             @media(max-width: 460px){
                 width: 100%;

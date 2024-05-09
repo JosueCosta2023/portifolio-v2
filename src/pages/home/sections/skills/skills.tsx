@@ -7,22 +7,32 @@ import {
   ExpirienceCardsContent,
   ExpirienceDetailsContent,
 } from "./styled";
+import IconesJson from '../../../../assets/json/icones.json'
 
 
 export const Experience = () => {
 
+  console.log(IconesJson.skills[0].url)
   return (
     <ExperienceSectionContainer id="soft-skills">
       <div>
         <ExperienceHardSkilss>
           <h3>Hard Skills</h3>
-          <ul>{}</ul>
+
+          <ul>{
+            IconesJson.skills.map((skill, index) => (
+              <li key={index}>
+                <img src={skill.url} alt={skill.alt} title={skill.name} />
+              </li>
+            ))
+ 
+            }</ul>
         </ExperienceHardSkilss>
       </div>
 
       <div>
         <ExpirienceDetailsContent>
-          <h2>Habilidades que Impulsionam Além do Código</h2>
+          <h2>Habilidades<br/> além do código</h2>
           <p>
             Desenvolver grandes produtos vai além do código. É sobre
             colaboração, comunicação e comprometimento. Aqui estão algumas das

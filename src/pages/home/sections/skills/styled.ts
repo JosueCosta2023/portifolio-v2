@@ -31,8 +31,9 @@ export const ExperienceHardSkilss = styled.div`
     flex-direction: column;
     margin-bottom: -100px;
     & > h3{
-        font-size: 38px;
+        font-size: 48px;
         color: var(--secundary-normal);
+        margin-bottom: 50px;
     }
     & > ul {
         display: flex;
@@ -42,9 +43,21 @@ export const ExperienceHardSkilss = styled.div`
         flex-wrap: wrap;
         margin-top: 60px ;
         padding: 0px 30px;
+        gap: 20px;
         & > li{
             font-size: 68px;
-            width: 100px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            & > img{
+                width: 60%;
+                filter: grayscale(100%);
+                &:hover{
+                    filter: grayscale(0%);
+                }
+            }
         }
     }
 

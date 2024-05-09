@@ -1,14 +1,13 @@
-import { ButtomPrimaryNormal, ButtomPrimaryWire } from "../../../../components/buttons/buttonPrimary"
+import { ButtomPrimaryNormal} from "../../../../components/buttons/buttonPrimary"
 import { Card, ContentCards, ContentTitle, ProjectSectionContainer } from "./styled"
-import ImageDefault from '../../../../assets/images/perfilImage.png'
 import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
+import Projects from '../../../../assets/json/icones.json'
 
 export const Project = () => {
-    const handleFunction =() => {
-        console.log("Clicou para carregar mais projetos.")
+    const handleFunction = () => {
+        alert("Teste")
     }
-
     return(
         <ProjectSectionContainer id="project">
            <div>
@@ -18,57 +17,30 @@ export const Project = () => {
                 </ContentTitle>
 
                 <ContentCards>
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
+                    {
+                        Projects.projects.slice(0,3).map((project, index) => (
+                            <Card key={index}>
+                                <img src={project.image} alt={project.name} />
+                                <div>
+                                    <span>{project.tecnology}</span>
+                                    <h3>{project.name}</h3>
+                                    <p>{project.description}</p>
+                                    <div>
+                                        <a href={project.repository} target="_blank">
+                                            Github <FaGithub/>
+                                        </a>
 
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
-
-                    <Card>
-                        <img src={ImageDefault} alt="" />
-                        <div>
-                            <span>UI-UX DESIGNER</span>
-                            <h3>Product Admin Dashboard</h3>
-                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                            <div>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Github <FaGithub/>
-                                </ButtomPrimaryWire>
-                                <ButtomPrimaryWire onClick={handleFunction}>
-                                    Deploy <FaDeploydog/>
-                                </ButtomPrimaryWire>
-                            </div>
-                        </div>
-                    </Card>
-                         
+                                        {
+                                            project.deploy === "" ? "Necessário instalação local" :
+                                        <a href={project.deploy} target="_blank">
+                                            Deploy <FaDeploydog/>
+                                        </a>
+                                        }
+                                    </div>
+                                </div>
+                            </Card>
+                        ))
+                    }
                 </ContentCards>
 
                 <ButtomPrimaryNormal onClick={handleFunction}>
