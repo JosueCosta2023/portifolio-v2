@@ -48,7 +48,7 @@ export const Project = () => {
 
                 <ContentCards>
                     {
-                        VisibleProjetos.map((project, index) => (
+                        VisibleProjetos?.map((project, index) => (
                             <Card key={index}>
                                 <img src={project.image} alt={project.name} />
                                 <div>

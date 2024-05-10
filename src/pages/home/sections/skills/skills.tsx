@@ -21,9 +21,9 @@ export const Experience = () => {
           <h3>Hard Skills</h3>
 
           <ul>{
-            IconesJson.skills.map((skill, index) => (
+            IconesJson.skills?.map((skill, index) => (
               <li key={index}>
-                <img src={skill.url} alt={skill.alt} title={skill.name} />
+                <img src={skill.url} title={skill.name} />
               </li>
             ))
  
