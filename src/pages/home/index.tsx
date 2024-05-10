@@ -11,8 +11,8 @@ import { FContent, FooterContainer, HContent, HeaderContainier, Logo } from "./s
 
 export const Home = () => {
 
-  const MenuItens = ['Principal', 'Sobre','SoftSkills','Projetos', 'Contato' ]
-  const sectionId = ['home','about','soft-skills','project','contact']
+  const MenuItens = ['Principal', 'Sobre','Habilidades','Projetos', 'Contato' ]
+  const sectionId = ['home','about','habilidades','project','contact']
 
   return (
     <>

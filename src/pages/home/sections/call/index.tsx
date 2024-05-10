@@ -1,6 +1,6 @@
 import { BsArrowRight } from "react-icons/bs";
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary/index.js";
-import { handleClickTest } from "../../../../components/utils/index.js";
+import { scrollToSection } from "../../../../components/utils/index.js";
 import { CallSectionContainer } from "./call.js";
 
 export const CallClients = () => {
@@ -14,7 +14,7 @@ export const CallClients = () => {
         <p>
         Como desenvolvedor frontend dedicado, estou aqui para transformar sua visão em um produto digital impressionante. Desde websites elegantes até aplicativos interativos, estou pronto para colaborar e trazer sua ideia à vida.
         </p>
-        <ButtomPrimaryNormal onClick={handleClickTest}>
+        <ButtomPrimaryNormal onClick={() => scrollToSection('contact')}>
           Vamos trabalhar Juntos!
           <BsArrowRight />
         </ButtomPrimaryNormal>

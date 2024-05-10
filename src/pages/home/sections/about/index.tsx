@@ -3,7 +3,7 @@ import { AboutContentGray, AboutContentWhite, AboutDetailsSocial, AboutImageSoci
 import { SiFrontendmentor } from "react-icons/si"
 import ImageDefaul from '../../../../assets/images/perfilImage.png'
 import { ButtomPrimaryNormal, ButtomPrimaryWire } from "../../../../components/buttons/buttonPrimary"
-import { handleDonwload, scrollToSection } from "../../../../components/utils"
+import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp, handleDonwload, scrollToSection } from "../../../../components/utils"
 import { MdJavascript } from "react-icons/md"
 
 
@@ -18,11 +18,11 @@ export const About = () => {
                         <img src={ImageDefaul} alt="imagem" />
                     </div>       
                     <ul>
-                        <li><FaWhatsapp/></li>
-                        <li><FaInstagram/> </li>
-                        <li><FaLinkedin/> </li>
-                        <li><FaGithub/> </li>
-                        <li><SiFrontendmentor/> </li>
+                        <li><FaWhatsapp onClick={handleClickWhatsapp}/></li>
+                        <li><FaInstagram onClick={handleClickInstagran} /> </li>
+                        <li><FaLinkedin onClick={handleClickLinkedin} /> </li>
+                        <li><FaGithub onClick={handleClickGithub} /> </li>
+                        <li><SiFrontendmentor onClick={handleClickMentor}/> </li>
                     </ul>   
                 </AboutImageSocial>
 

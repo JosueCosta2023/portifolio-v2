@@ -5,6 +5,7 @@ import { SiFrontendmentor } from "react-icons/si"
 import { ContactAddressCard, ContactAddressContent, ContactFormContent, ContactSectionContainer, InputForm } from "./styled"
 import {FieldValues, useForm} from 'react-hook-form'
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary"
+import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp } from "../../../../components/utils"
 
 interface IFormValues {
     name: string
@@ -68,11 +69,11 @@ export const Contact = () => {
                     </div>
 
                     <ul>
-                        <li><FaWhatsapp/></li>
-                        <li><FaInstagram/> </li>
-                        <li><FaLinkedin/> </li>
-                        <li><FaGithub/> </li>
-                        <li><SiFrontendmentor/> </li>
+                        <li><FaWhatsapp onClick={handleClickWhatsapp}/></li>
+                        <li><FaInstagram onClick={handleClickInstagran} /> </li>
+                        <li><FaLinkedin onClick={handleClickLinkedin} /> </li>
+                        <li><FaGithub onClick={handleClickGithub} /> </li>
+                        <li><SiFrontendmentor onClick={handleClickMentor}/> </li>
                     </ul> 
                 </ContactAddressContent>
 
@@ -155,7 +156,7 @@ export const Contact = () => {
 
 
                         <ButtomPrimaryNormal onClick={handleSubmit(OnSumit)} >
-                            Enviar
+                            Enviar <BiMailSend/>
                         </ButtomPrimaryNormal>
                     </form>
                 </ContactFormContent>

@@ -1,5 +1,5 @@
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary";
-import { handleClickTest } from "../../../../components/utils";
+import { handleClickWhatsapp } from "../../../../components/utils";
 import {
   ExperienceCard,
   ExperienceHardSkilss,
@@ -8,13 +8,14 @@ import {
   ExpirienceDetailsContent,
 } from "./styled";
 import IconesJson from '../../../../assets/json/icones.json'
+import { FaWhatsapp } from "react-icons/fa";
 
 
 export const Experience = () => {
 
   console.log(IconesJson.skills[0].url)
   return (
-    <ExperienceSectionContainer id="soft-skills">
+    <ExperienceSectionContainer id="habilidades">
       <div>
         <ExperienceHardSkilss>
           <h3>Hard Skills</h3>
@@ -32,7 +33,8 @@ export const Experience = () => {
 
       <div>
         <ExpirienceDetailsContent>
-          <h2>Habilidades<br/> além do código</h2>
+          
+          <h2>SoftSkills <br/>Habilidades <br/> além do código</h2>
           <p>
             Desenvolver grandes produtos vai além do código. É sobre
             colaboração, comunicação e comprometimento. Aqui estão algumas das
@@ -43,8 +45,8 @@ export const Experience = () => {
             permitindo-me oferecer resultados de alta qualidade e criar
             experiências digitais memoráveis.
           </p>
-          <ButtomPrimaryNormal onClick={handleClickTest}>
-            Say Hellow!
+          <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
+            Fale Comigo! <FaWhatsapp/>
           </ButtomPrimaryNormal>
         </ExpirienceDetailsContent>
 

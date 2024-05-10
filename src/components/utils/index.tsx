@@ -17,11 +17,23 @@ export const handleClickWhatsapp = () => {
     const WhatsappUrl = 'https://wa.me/65993408371';
     window.open(WhatsappUrl, '_blank');
 }
-
-
-export const handleClickTest = () => {
-    console.log("Botão clicado")
+export const handleClickInstagran = () => {
+    const Url = 'https://www.instagram.com/josue.ocanha/';
+    window.open(Url, '_blank');
 }
+export const handleClickLinkedin = () => {
+    const Url = 'https://www.linkedin.com/in/josue-ocanha-costa/';
+    window.open(Url, '_blank');
+}
+export const handleClickGithub = () => {
+    const Url = 'https://github.com/JosueCosta2023';
+    window.open(Url, '_blank');
+}
+export const handleClickMentor = () => {
+    const Url = 'https://www.frontendmentor.io/profile/JosueCosta2023';
+    window.open(Url, '_blank');
+}
+
 
 export const handleDonwload = () => {
     window.open(File, '_blank');
