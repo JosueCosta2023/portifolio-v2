@@ -22,7 +22,7 @@ export const Project = () => {
 
 
     useEffect(() => {
-        axios.get<{projects: Projeto[]}>('/src/assets/json/icones.json').then((response) => {
+        axios.get<{projects: Projeto[]}>('../../../../assets/json/icones.json').then((response) => {
             const dados = response.data.projects
             setProjetos(dados)
             setVisibleProjetos(dados.slice(0,3))
