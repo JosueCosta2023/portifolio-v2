@@ -38,7 +38,7 @@ export const Hero = () => {
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>5</strong>
+              <strong>5+</strong>
               <p>Tecnologias</p>
             </HeroDataItem>
           </HeroData>

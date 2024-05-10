@@ -40,7 +40,7 @@ export const Home = () => {
 
       <FooterContainer>
            <FContent>
-              <p>Copyright © 2024-2025 Josué.</p>
+              <p>Copyright © 2024-2025 <strong>Josué Ocanha Costa.</strong></p>
            </FContent>
       </FooterContainer>
     </>

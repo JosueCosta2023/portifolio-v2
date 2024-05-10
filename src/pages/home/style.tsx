@@ -78,7 +78,12 @@ export const FContent = styled.div`
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    
+    & > p > strong{
+        &:hover{
+            text-decoration: underline;
+            cursor: none;
+        }
+    }
 
 
 `

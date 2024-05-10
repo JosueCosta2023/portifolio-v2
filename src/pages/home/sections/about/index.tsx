@@ -1,10 +1,11 @@
-import {FaDownload, FaFigma, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
+import {FaCss3, FaDownload, FaFigma, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaReact, FaUsers, FaWhatsapp } from "react-icons/fa"
 import { AboutContentGray, AboutContentWhite, AboutDetailsSocial, AboutImageSocial, AboutProccessCards, AboutProccessDetails, AboutSectionStyle, Card, ProccessBottom, ProccessTop } from "./styled"
-import { SiFrontendmentor } from "react-icons/si"
+import { SiFrontendmentor, SiTypescript } from "react-icons/si"
 import ImageDefaul from '../../../../assets/images/perfilImage.png'
 import { ButtomPrimaryNormal, ButtomPrimaryWire } from "../../../../components/buttons/buttonPrimary"
 import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp, handleDonwload, scrollToSection } from "../../../../components/utils"
 import { MdJavascript } from "react-icons/md"
+import {  GiTalk } from "react-icons/gi"
 
 
 export const About = () => {
@@ -67,14 +68,20 @@ export const About = () => {
                         <div>
                             <ProccessTop>
                                 <Card>
-                                    <span><FaFigma/> </span>
-                                    <h3>Layouts Profissional</h3>
+                                    <div>
+                                        <span><FaFigma/></span>
+                                        <span><FaUsers/></span>
+                                    </div>
+                                    <h3>Analise e Dailys</h3>
                                     <p>
-                                    Estudo cuidadosamente as interfaces, layouts e interações propostas para entender a visão geral e os requisitos do projeto.
+                                    Realizo reiniões de alinhamento e estudo cuidadosamente as interfaces, layouts e interações propostas para entender a visão geral e os requisitos do projeto.
                                     </p>
                                 </Card>
                                 <Card>
-                                    <span><FaHtml5/></span>
+                                    <div>
+                                        <span><FaHtml5/></span>
+                                        <span><FaCss3/></span>
+                                    </div>
                                     <h3>Estrutura Semântica</h3>
                                     <p>
                                     Priorizo a acessibilidade e a estruturação adequada do conteúdo para garantir uma base sólida para o desenvolvimento.
@@ -84,12 +91,19 @@ export const About = () => {
                             </ProccessTop>
                             <ProccessBottom>
                                 <Card>
-                                    <span><MdJavascript/></span>
+                                    <div>
+                                        <span><MdJavascript/></span>
+                                        <span><SiTypescript/></span>
+                                        <span><FaReact/></span>
+                                    </div>
                                     <h3>Alto Desempenho</h3>
                                     <p>Para tornar o site mais dinâmico e interativo, incorporo JavaScript para atender aos requisitos do projeto.</p>
                                 </Card>
                                 <Card>
-                                    <span><FaGithub/> </span>
+                                    <div>
+                                        <span><FaGithub/> </span>
+                                        <span><GiTalk/> </span>
+                                    </div>
                                     <h3>Versionamento</h3>
                                     <p>
                                     Durante todo o processo de desenvolvimento, faço uso extensivo do Git e Github para controle de versão. 

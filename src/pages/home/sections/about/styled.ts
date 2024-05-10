@@ -271,29 +271,30 @@ export const Card = styled.div`
     -webkit-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
         -moz-box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
         box-shadow: 3px 36px 57px 5px rgba(0,0,0,0.35);
-    & > span {
-        width: 72px;
-        height: 72px;
+    & > div {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 6px;
-        background-color: var(--primary-normal);
-        color: white;
-        margin-bottom: 22px;
-        font-size: 50px;
-        
+        gap: 10px;
+        & > span {
+            width: 72px;
+            height: 72px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            background-color: var(--primary-normal);
+            color: white;
+            margin-bottom: 22px;
+            font-size: 50px;
+             }   
     }
     & > h3 {
         font-size: 20px;
         color: var(--secundary-normal);
-        /* margin-left: 32px; */
         margin-bottom: 12px;
     }
     & > p{
-        font-size: 16px;
+        font-size: 12px;
         color: var(--tertiary-normal);
-        letter-spacing: 2px;
-        /* margin-left: 32px; */
+        letter-spacing: 2px;   
     }
 `

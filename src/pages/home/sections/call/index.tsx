@@ -12,7 +12,7 @@ export const CallClients = () => {
         Deixe-me ajudar a tornar seus sonhos digitais uma realidade!
         </p>
         <p>
-        Como desenvolvedor frontend dedicado, estou aqui para transformar sua visão em um produto digital impressionante. Desde websites elegantes até aplicativos interativos, estou pronto para colaborar e trazer sua ideia à vida.
+        Como desenvolvedor frontend, estou aqui para transformar sua visão em um produto digital impressionante e colaborar e trazer sua ideia à vida.
         </p>
         <ButtomPrimaryNormal onClick={() => scrollToSection('contact')}>
           Vamos trabalhar Juntos!

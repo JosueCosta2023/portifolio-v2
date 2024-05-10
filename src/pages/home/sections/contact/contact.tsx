@@ -6,6 +6,7 @@ import { ContactAddressCard, ContactAddressContent, ContactFormContent, ContactS
 import {FieldValues, useForm} from 'react-hook-form'
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary"
 import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp } from "../../../../components/utils"
+import emailJs from '@emailjs/browser'
 
 interface IFormValues {
     name: string
@@ -20,12 +21,31 @@ interface IFormValues {
 export const Contact = () => {
 
     const {register, handleSubmit, reset, formState: {errors}} = useForm<IFormValues>()
-
+    
     const OnSumit = (data: FieldValues) => {
-        console.log(data)
+        sendMail(data)
         reset()
     }
+    
+    const sendMail = (data: FieldValues) => {
 
+        const templateParams = {
+            from_name: data.name,
+            subject: data.subject,
+            message: data.message,
+            budget_value: data.budget,
+            email: data.email
+        }
+
+
+        emailJs.send(
+            "service_9kr7tsm", "template_7uq77cf", templateParams, "VkH23Whshahe1OCM2"
+        ).then((response)=>{
+            console.log('E-Mail enviado com sucesso!', response.status, response.text)
+        }, (err) => {
+            console.error("Erro ao enviar email.", err)
+        })
+    }  
 
     return(
         <ContactSectionContainer id="contact">
