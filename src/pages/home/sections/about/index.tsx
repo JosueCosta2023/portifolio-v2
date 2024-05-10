@@ -1,7 +1,7 @@
 import {FaCss3, FaDownload, FaFigma, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaReact, FaUsers, FaWhatsapp } from "react-icons/fa"
 import { AboutContentGray, AboutContentWhite, AboutDetailsSocial, AboutImageSocial, AboutProccessCards, AboutProccessDetails, AboutSectionStyle, Card, ProccessBottom, ProccessTop } from "./styled"
 import { SiFrontendmentor, SiTypescript } from "react-icons/si"
-import ImageDefaul from '../../../../assets/images/perfilImage.png'
+import ImageDefaul from '../../../../assets/images/perfilImageSocial.png'
 import { ButtomPrimaryNormal, ButtomPrimaryWire } from "../../../../components/buttons/buttonPrimary"
 import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp, handleDonwload, scrollToSection } from "../../../../components/utils"
 import { MdJavascript } from "react-icons/md"
