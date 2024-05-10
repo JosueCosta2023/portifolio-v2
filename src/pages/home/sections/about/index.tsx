@@ -11,8 +11,8 @@ import {  GiTalk } from "react-icons/gi"
 export const About = () => {
 
     return(
-        <AboutSectionStyle id="about">
-            <AboutContentWhite> 
+        <AboutSectionStyle id="about" >
+            <AboutContentWhite data-aos="zoom-in"> 
 
                 <AboutImageSocial>
                     <div>
