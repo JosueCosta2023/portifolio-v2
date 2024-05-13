@@ -21,10 +21,16 @@ export const Experience = () => {
 
   const [data, setData] = useState<Icones[]>([])
   useEffect(() => {
-    axios.get<{skills: Icones[]}>('../../../../../src/assets/json/icones.json').then((response) => {
-      const dados = response.data.skills
-      setData(dados)
-    })
+
+    try {
+          axios.get<{skills: Icones[]}>('../../../../../src/assets/json/icones.json').then((response) => {
+            const dados = response.data.skills
+            setData(dados)
+          })
+      
+    } catch (error) {
+        console.error("Erro ao buscar dados das Skills:", error)
+    }
   }, [])
 
   console.log(data)

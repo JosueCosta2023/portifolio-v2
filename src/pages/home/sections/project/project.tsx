@@ -23,11 +23,18 @@ export const Project = () => {
 
 
     useEffect(() => {
-        axios.get<{projects: Projeto[]}>('../../../../../src/assets/json/icones.json').then((response) => {
-            const dados = response.data.projects
-            setProjetos(dados)
-            setVisibleProjetos(dados.slice(0,3))
-        })
+
+        try {
+            axios.get<{projects: Projeto[]}>('../../../../../src/assets/json/icones.json').then((response) => {
+                const dados = response.data.projects
+                setProjetos(dados)
+                setVisibleProjetos(dados.slice(0,3))
+            })
+            
+        } catch (error) {
+            console.error("Erro aos buscar dados dos projetos:", error)            
+        }
+
 
 
     }, [])
