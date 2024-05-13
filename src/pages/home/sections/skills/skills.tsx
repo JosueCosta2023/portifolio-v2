@@ -7,16 +7,24 @@ import {
   ExpirienceCardsContent,
   ExpirienceDetailsContent,
 } from "./styled";
-import IconesJson from '../../../../../src/assets/json/icones.json'
 import { FaWhatsapp } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
+type Icones = {
+  "name":"string",
+  "alt":"string",
+  "url":"string",
+}
 
 export const Experience = () => {
 
-  const [data, setData] = useState([])
+  const [data, setData] = useState<Icones[]>([])
   useEffect(() => {
-    setData(IconesJson.skills)
+    axios.get<{skills: Icones[]}>('../../../../../src/assets/json/icones.json').then((response) => {
+      const dados = response.data.skills
+      setData(dados)
+    })
   }, [])
 
   console.log(data)
