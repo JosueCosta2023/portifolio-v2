@@ -7,7 +7,7 @@ import {
   ExpirienceCardsContent,
   ExpirienceDetailsContent,
 } from "./styled";
-import IconesJson from '../../../../assets/json/icones.json'
+import IconesJson from '../../../../../src/assets/json/icones.json'
 import { FaWhatsapp } from "react-icons/fa";
 
 

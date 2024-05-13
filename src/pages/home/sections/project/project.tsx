@@ -15,18 +15,18 @@ type Projeto = {
 }
 
 
-export const Project = () => {
 
+export const Project = () => {
+    
     const [projetos, setProjetos] = useState<Projeto[]>([])
     const [VisibleProjetos, setVisibleProjetos] = useState<Projeto[]>([])
 
 
     useEffect(() => {
-        axios.get<{projects: Projeto[]}>('/src/assets/json/icones.json').then((response) => {
+        axios.get<{projects: Projeto[]}>('../../../../../src/assets/json/icones.json').then((response) => {
             const dados = response.data.projects
             setProjetos(dados)
             setVisibleProjetos(dados.slice(0,3))
-            console.log(VisibleProjetos)
         })
 
 
