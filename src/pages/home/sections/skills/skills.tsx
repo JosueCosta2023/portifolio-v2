@@ -9,11 +9,17 @@ import {
 } from "./styled";
 import IconesJson from '../../../../../src/assets/json/icones.json'
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 
 export const Experience = () => {
 
-  console.log(IconesJson.skills[0].url)
+  const [data, setData] = useState([])
+  useEffect(() => {
+    setData(IconesJson.skills)
+  }, [])
+
+  console.log(data)
   return (
     <ExperienceSectionContainer id="habilidades">
       <div>
@@ -21,7 +27,7 @@ export const Experience = () => {
           <h3>Hard Skills</h3>
 
           <ul>{
-            IconesJson.skills?.map((skill, index) => (
+            data.map((skill, index) => (
               <li key={index}>
                 <img src={skill.url} title={skill.name} />
               </li>
