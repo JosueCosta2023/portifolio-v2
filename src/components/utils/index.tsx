@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import File from '../../assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
 
 
@@ -39,6 +40,25 @@ export const handleDonwload = () => {
     window.open(File, '_blank');
 }
 
+
+interface ImageTypes {
+    src: string,
+    fallBackSrc: string,
+    alt: string
+}
+
+export const ImageWithFallBack: React.FC<ImageTypes> = ({src, fallBackSrc, alt}) => {
+
+    const [imgSrc, setImgSrc] = useState(src)
+
+    const handleError = () => {
+        setImgSrc(fallBackSrc)
+    }
+
+    return(
+        <img src={imgSrc} alt={alt} onError={handleError}/>
+    )
+}
 
 
 

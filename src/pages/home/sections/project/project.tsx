@@ -5,6 +5,7 @@ import { FaDeploydog } from "react-icons/fa6"
 import dados from '../../../../assets/json/icones.json'
 import { useEffect, useState } from "react"
 import imageError from "../../../../assets/images/Design sem nome.png"
+import { ImageWithFallBack } from "../../../../components/utils"
 
 type Projetos = {
    "name":string, 
@@ -43,9 +44,11 @@ export const Project = () => {
                     {
                         visible.map((project, index) => (
                             <Card key={index}>
-                                <img src={
-                                    project.image === "" || null ? imageError : project.image
-                                } alt={project.name}/>
+                                <ImageWithFallBack
+                                    src={project.image}
+                                    fallBackSrc={imageError}
+                                    alt={project.name}
+                                />
                                 <div>
                                     <span>{project.tecnology}</span>
                                     <h3>{project.name}</h3>
