@@ -42,10 +42,10 @@ export const Project = () => {
 
                 <ContentCards>
                     {
-                        visible.map((project, index) => (
+                        visible && visible?.map((project, index) => (
                             <Card key={index}>
                                 <ImageWithFallBack
-                                    src={project.image}
+                                    src={project?.image}
                                     fallBackSrc={imageError}
                                     alt={project.name}
                                 />
