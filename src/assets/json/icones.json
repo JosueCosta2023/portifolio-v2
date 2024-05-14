@@ -3,37 +3,37 @@
         {
             "name": "HTML5",
             "alt": "Linguagem de Marcação FrontEnd",
-            "url": "/src/assets/images/icones/icons8-html/icons8-html.svg"
+            "url": "../images/icones/icons8-html/icons8-html.svg"
         },
         {
             "name":"CSS3",
             "alt":"Linguagem de estilo",
-            "url":"/src/assets/images/icones/icons8-css3-color-hand-drawn/icons8-css3-400.svg"
+            "url":"../images/icones/icons8-css3-color-hand-drawn/icons8-css3-400.svg"
         },
         {
             "name":"JavaScript",
             "alt":"Linguagem de Programação",
-            "url":"/src/assets/images/icones/icons8-logotipo-javascript-cute-color/icons8-logotipo-javascript-512.svg"
+            "url":"/assets/images/icones/icons8-logotipo-javascript-cute-color/icons8-logotipo-javascript-512.svg"
         },
         {
             "name":"React",
             "alt":"Biblioteca Javascript de componentização",
-            "url":"/src/assets/images/icones/icons8-reagir-office-l/icons8-reagir-480.svg"
+            "url":"/assets/images/icones/icons8-reagir-office-l/icons8-reagir-480.svg"
         },
         {
             "name":"Figma",
             "alt":"Ferramenta de Designer",
-            "url":"/src/assets/images/icones/icons8-figma-color-hand-drawn/icons8-figma-400.svg"
+            "url":"/assets/images/icones/icons8-figma-color-hand-drawn/icons8-figma-400.svg"
         },
         {
             "name":"Git",
             "alt":"Sistema de versionamento",
-            "url":"/src/assets/images/icones/icons8-git-pulsar-color/icons8-git-420.svg"
+            "url":"/assets/images/icones/icons8-git-pulsar-color/icons8-git-420.svg"
         },
         {
             "name":"Github",
             "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
-            "url":"/src/assets/images/icones/icons8-github-cute-color/icons8-github-512.svg"
+            "url":"/assets/images/icones/icons8-github-cute-color/icons8-github-512.svg"
         }
     ],
     "projects": [
