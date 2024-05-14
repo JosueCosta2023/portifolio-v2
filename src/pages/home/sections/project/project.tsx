@@ -31,7 +31,6 @@ export const Project = () => {
         setVisible(visible.slice(0, newCount))
     }
 
-    console.log(visible)
     return(
         <ProjectSectionContainer id="project">
            <div>
@@ -45,8 +44,8 @@ export const Project = () => {
                         visible.map((project, index) => (
                             <Card key={index}>
                                 <img src={
-                                    project.image === "" ? imageError : project.image
-                                } alt={project.name} />
+                                    project.image === "" || null ? imageError : project.image
+                                } alt={project.name}/>
                                 <div>
                                     <span>{project.tecnology}</span>
                                     <h3>{project.name}</h3>
