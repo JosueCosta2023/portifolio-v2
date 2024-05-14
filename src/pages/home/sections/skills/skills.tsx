@@ -8,32 +8,12 @@ import {
   ExpirienceDetailsContent,
 } from "./styled";
 import { FaWhatsapp } from "react-icons/fa";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import data from '../../../../assets/json/icones.json'
 
-type Icones = {
-  "name":"string",
-  "alt":"string",
-  "url":"string",
-}
 
 export const Experience = () => {
 
-  const [data, setData] = useState<Icones[]>([])
-  useEffect(() => {
 
-    try {
-          axios.get<{skills: Icones[]}>('../../../../../src/assets/json/icones.json').then((response) => {
-            const dados = response.data.skills
-            setData(dados)
-          })
-      
-    } catch (error) {
-        console.error("Erro ao buscar dados das Skills:", error)
-    }
-  }, [])
-
-  console.log(data)
   return (
     <ExperienceSectionContainer id="habilidades">
       <div>
@@ -41,7 +21,7 @@ export const Experience = () => {
           <h3>Hard Skills</h3>
 
           <ul>{
-            data.map((skill, index) => (
+            data.skills.map((skill, index) => (
               <li key={index}>
                 <img src={skill.url} title={skill.name} />
               </li>

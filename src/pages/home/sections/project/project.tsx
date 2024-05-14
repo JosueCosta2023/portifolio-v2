@@ -2,49 +2,35 @@ import { ButtomPrimaryNormal} from "../../../../components/buttons/buttonPrimary
 import { Card, ContentCards, ContentTitle, ProjectSectionContainer } from "./styled"
 import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
+import dados from '../../../../assets/json/icones.json'
 import { useEffect, useState } from "react"
-import axios from "axios"
 
-type Projeto = {
-    "name":"string",
-    "description":"string",
-    "repository":"string",
-    "deploy"?:"string",
-    "image":"string",
-    "tecnology":"string"
+type Projetos = {
+   "name":string, 
+   "description":string, 
+   "image":string, 
+   "repository":string, 
+   "deploy":string | null, 
+   "tecnology":string 
 }
 
-
-
 export const Project = () => {
-    
-    const [projetos, setProjetos] = useState<Projeto[]>([])
-    const [VisibleProjetos, setVisibleProjetos] = useState<Projeto[]>([])
 
+    const [visible, setVisible] = useState<Projetos[]>([])
+    const [loadMoreCount, setLoadMoreCount] = useState(3)
 
     useEffect(() => {
+        const data = dados.projects.slice(0, loadMoreCount)
+        setVisible(data)
+    }, [loadMoreCount])
 
-        try {
-            axios.get<{projects: Projeto[]}>('../../../../../src/assets/json/icones.json').then((response) => {
-                const dados = response.data.projects
-                setProjetos(dados)
-                setVisibleProjetos(dados.slice(0,3))
-            })
-            
-        } catch (error) {
-            console.error("Erro aos buscar dados dos projetos:", error)            
-        }
-
-
-
-    }, [])
-    const handleFunction = () => {
-       const currentLenght = VisibleProjetos.length;
-       const nextProject = projetos.slice(currentLenght, currentLenght + 3)
-       setVisibleProjetos([...VisibleProjetos, ...nextProject])
+    const loadMoreProjects = () => {
+        const newCount = loadMoreCount + 3;
+        setLoadMoreCount(newCount)
+        setVisible(visible.slice(0, newCount))
     }
 
-
+    console.log(visible)
     return(
         <ProjectSectionContainer id="project">
            <div>
@@ -55,7 +41,7 @@ export const Project = () => {
 
                 <ContentCards>
                     {
-                        VisibleProjetos?.map((project, index) => (
+                        visible.map((project, index) => (
                             <Card key={index}>
                                 <img src={project.image} alt={project.name} />
                                 <div>
@@ -81,13 +67,15 @@ export const Project = () => {
                 </ContentCards>
 
                 {
-                    VisibleProjetos.length < projetos.length && (
-                        <ButtomPrimaryNormal onClick={handleFunction}>
-                            Carregar Mais
+                    visible.length < dados.projects.length && (
+
+                        <ButtomPrimaryNormal onClick={loadMoreProjects}>
+                                    Carregar Mais
                         </ButtomPrimaryNormal>
                     )
-                }
 
+                }
+            
            </div>
         </ProjectSectionContainer>
     )
