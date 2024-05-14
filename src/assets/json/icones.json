@@ -43,7 +43,7 @@
             "description":"Um projeto elegante de newsletter criado com HTML, CSS e JavaScript. Mantenha sua comunidade informada de forma atraente e interativa. Subscreva-se agora!",
             "repository":"https://github.com/JosueCosta2023/FrontEndMentor-newsLetter",
             "deploy":"https://josuecosta2023.github.io/FrontEndMentor-newsLetter/",
-            "image":"/src/assets/images/projeto1.png",
+            "image":"../images/projeto1.png",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
