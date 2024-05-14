@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
 import dados from '../../../../assets/json/icones.json'
 import { useEffect, useState } from "react"
+import imageError from "../../../../assets/images/Design sem nome.png"
 
 type Projetos = {
    "name":string, 
@@ -43,7 +44,9 @@ export const Project = () => {
                     {
                         visible.map((project, index) => (
                             <Card key={index}>
-                                <img src={project.image} alt={project.name} />
+                                <img src={
+                                    project.image === "" ? imageError : project.image
+                                } alt={project.name} />
                                 <div>
                                     <span>{project.tecnology}</span>
                                     <h3>{project.name}</h3>
