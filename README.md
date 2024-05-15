@@ -18,7 +18,7 @@ Este portfólio tem como objetivo mostrar minha transição de Analista de Supor
 - **React:** Biblioteca JavaScript para construção de interfaces de usuário.
 - **TypeScript:** Superset de JavaScript que adiciona tipos estáticos ao código.
 - **EmailJS:** Serviço para envio de e-mails diretamente do frontend.
-- **WhatsApp API:** Integração para envio de mensagens via WhatsApp.
+- **WhatsApp Me:** Integração para envio de mensagens via WhatsApp.
 
 ## Instalação
 
@@ -26,7 +26,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/JosueCosta2023/portifolio-v2
 
 2. Instale as dependências
     ```bash
