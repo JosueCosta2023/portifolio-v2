@@ -8,7 +8,7 @@ import {
   ExpirienceDetailsContent,
 } from "./styled";
 import { FaWhatsapp } from "react-icons/fa";
-import data from '../../../../service/json/icones.json'
+import data from '../../../../service/icones.json'
 
 
 export const Experience = () => {

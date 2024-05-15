@@ -43,7 +43,7 @@
             "description":"Um projeto elegante de newsletter criado com HTML, CSS e JavaScript. Mantenha sua comunidade informada de forma atraente e interativa. Subscreva-se agora!",
             "repository":"https://github.com/JosueCosta2023/FrontEndMentor-newsLetter",
             "deploy":"https://josuecosta2023.github.io/FrontEndMentor-newsLetter/",
-            "image":"/src/assets/images/projeto1.png",
+            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442405922_367977226267071_930933495228204701_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGw17XCVzn1sffCVFa4bVQcPOEKsYauKbg84Qqxhq4puDjVQaxXWif2wqJLlZMhZCRVaBk2CaIqGbkGlpMDgRlt&_nc_ohc=IAJOCt6VTgoQ7kNvgEyv7cM&_nc_ht=scontent.fops3-1.fna&oh=00_AYCn7dzVL4rUV6ZcQf0TsrHsuDcV1HLLbBmEFft6S3RnjA&oe=6649CB6F",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -51,7 +51,7 @@
             "description":"Um projeto simples e eficaz para calcular o Índice de Massa Corporal (IMC) usando HTML, CSS e JavaScript. Obtenha sua saúde em dia em um piscar de olhos!",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-imc",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-calculator-imc/",
-            "image":"/src/assets/images/projeto2.png",
+            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442447873_367977246267069_298638194165648907_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE3Z3ZW0FNX5RJeHI7urasUw2KxhHxXfLzDYrGEfFd8vPUwLeFxSYxFPYS67wsq_lCQTJoqGEPHbw8eGTYcZdLu&_nc_ohc=Ax1gEgSpf3UQ7kNvgHEwvbI&_nc_ht=scontent.fops3-1.fna&oh=00_AYD28H9bg6muTY5uD1Cqa8F59Iy7VTAE2ZtkUSfEvK4l2w&oe=6649D29E",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -59,7 +59,7 @@
             "description":"Explore a nova era sombria de Gotham! Nossa landing page, desenvolvida com React e JavaScript, oferece uma prévia exclusiva do próximo capítulo épico do Batman. ",
             "repository":"https://github.com/JosueCosta2023/batman-version-react?tab=readme-ov-file",
             "deploy":"https://the-batman-app.netlify.app/",
-            "image":"/src/assets/images/projeto3.png",
+            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442398449_367977236267070_2046999460200782146_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFzSE1wfT64d8Tol5LhP_nI5JXPkIkNpFbklc-QiQ2kVmZRdpd7RRuyfzzMffPV-b6XI7Vh1dmiB6Ni0hbneki5&_nc_ohc=esMW-5whoc0Q7kNvgGRaSOZ&_nc_ht=scontent.fops3-1.fna&oh=00_AYAXxzvrtA_ilTPJEBFgptn8k8tAlWAl139eCzgyNEpHkA&oe=6649C480",
             "tecnology":"React e JavaScript"
         },
         {
@@ -75,7 +75,7 @@
             "description":"Pokedex simples e direta, criada para fins de estudos, busquei compreender o funcionamento da DOM e aperfeçoei a responsividade.",
             "repository":"https://github.com/JosueCosta2023/DeQuest-mapDev-pokedex",
             "deploy":"https://josuecosta2023.github.io/DeQuest-mapDev-pokedex/",
-            "image":"/src/assets/images/projeto5.png",
+            "image":"./assets/images/projeto5.png",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -121,8 +121,8 @@
         {
             "name":"Landing Page Institucional",
             "description":"LandingPage estática para agencias digitais, realizado com html, css e javascript. Primeira implementação de slides.",
-            "repository":"https://github.com/JosueCosta2023/UpInsinde-Quest-BloggerPage",
-            "deploy":"https://josuecosta2023.github.io/UpInsinde-Quest-BloggerPage/",
+            "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-LandingPageMP",
+            "deploy":"https://josuecosta2023.github.io/DevQuest-Quest-LandingPageMP/",
             "image":"/src/assets/images/projeto11.png",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },

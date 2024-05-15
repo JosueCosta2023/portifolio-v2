@@ -2,7 +2,7 @@ import { ButtomPrimaryNormal} from "../../../../components/buttons/buttonPrimary
 import { Card, ContentCards, ContentTitle, ProjectSectionContainer } from "./styled"
 import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
-import dados from '../../../../service/json/icones.json'
+import dados from '../../../../service/icones.json'
 import { useEffect, useState } from "react"
 import imageError from "../../../../assets/images/Design sem nome.png"
 import { ImageWithFallBack } from "../../../../components/utils"
