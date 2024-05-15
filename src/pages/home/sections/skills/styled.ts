@@ -47,10 +47,13 @@ export const ExperienceHardSkilss = styled.div`
         & > li{
             font-size: 68px;
             width: 150px;
+            height: 150px;
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 20px;
+            background-color: white;
             & > img{
                 width: 60%;
                 filter: grayscale(100%);
