@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import File from '../../assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
+import File from '/assets/docs/JosueOcanhaCosta_DevWebFrontEndJunior (atualizado).pdf';
 
 
 export const scrollToSection = (sectionId : string) => {

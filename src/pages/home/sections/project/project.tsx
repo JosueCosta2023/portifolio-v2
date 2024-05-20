@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa"
 import { FaDeploydog } from "react-icons/fa6"
 import dados from '../../../../service/icones.json'
 import { useEffect, useState } from "react"
-import imageError from "../../../../assets/images/Design sem nome.png"
+import imageError from "/assets/images/error.png"
 import { ImageWithFallBack } from "../../../../components/utils"
 
 type Projetos = {

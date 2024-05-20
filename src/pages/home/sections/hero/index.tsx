@@ -8,7 +8,7 @@ import {
   HeroInfo,
   HeroSectionContainer,
 } from "./styled";
-import ImagemPadrao from '../../../../assets/images/perfilImage.png'
+import ImagemPadrao from '/assets/images/perfilImage.png'
 import { handleClickWhatsapp } from "../../../../components/utils";
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary";
 

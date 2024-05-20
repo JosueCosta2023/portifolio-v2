@@ -3,37 +3,37 @@
         {
             "name": "HTML5",
             "alt": "Linguagem de Marcação FrontEnd",
-            "url": "https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442500725_367986626266131_2219011552520675767_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGkamSkD0QRYqkEhRS65bktvI6RFb36uzG8jpEVvfq7MfBjWI_EMCxGOA9xYoFYW2JWQpr5JP4jyOTU-QWbWAH_&_nc_ohc=iSQT299OCIkQ7kNvgGAkyBP&_nc_ht=scontent.fops3-1.fna&oh=00_AYDIKFj7paGXV7Q7cFxvYUZ9RwGBBh8BWZXCqGHoGR_Kuw&oe=6649DDC2"
+            "url": "/assets/images/html.png"
         },
         {
             "name":"CSS3",
             "alt":"Linguagem de estilo",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442412436_367986566266137_5545115871502809464_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGP_nlbnYLBwqVaeAkED68qSAmfH-nXXVFICZ8f6dddUZsrZJqKL23nH-Jji3Pod8El8TDkDR_rLbu_FrLzPOOB&_nc_ohc=E43zZcCgu9IQ7kNvgFdP9vb&_nc_ht=scontent.fops3-1.fna&oh=00_AYBUz7Hb_ZUurcr0ECF9hgeETAzw6WFSVHnBPB5uz2WC4g&oe=6649E8F6"
+            "url":"/assets/images/css.png"
         },
         {
             "name":"JavaScript",
             "alt":"Linguagem de Programação",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442371409_367986642932796_6002546263559779395_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEXqyy_pV_nJyIB8hKoTkkZTiIg1LxnayxOIiDUvGdrLDudYf6yRR0T18yQWP9nn8fF1GsKTUGp3Fs_MjZfDImQ&_nc_ohc=q77G6xb7Lw0Q7kNvgHo8pMw&_nc_ht=scontent.fops3-1.fna&oh=00_AYBMorfUWWrFfVq5UIvxx8V1URdSyabg2sMLXRKqAD3Z5A&oe=6649E60D"
+            "url":"/assets/images/js.png"
         },
         {
             "name":"React",
             "alt":"Biblioteca Javascript de componentização",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442437637_367986686266125_5926476318810403317_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEm27WqOow8VYXuyy-enptSw61ZTY3sDAvDrVlNjewMCzM_Com2UuW3_HQBSp9oT5RfvulS7F3vKvBx35brmsUP&_nc_ohc=_bt_uDoCfWUQ7kNvgEYF_1w&_nc_ht=scontent.fops3-1.fna&oh=00_AYAhevRXmf4XpScLFEVJQZo8kBijTjhUGpeFh9CW6tU68A&oe=6649EE8F"
+            "url":"/assets/images/react.png"
         },
         {
             "name":"Figma",
             "alt":"Ferramenta de Designer",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/441533917_367986576266136_1868182257249841349_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGjDYeoT6kc3ftoObWMyz_EiwHFjj7IWYSLAcWOPshZlth6eAWcE5RfGqwnKTdhPAyaPCg_friXcVFlGVEzJKK&_nc_ohc=Ai9JpMcYkicQ7kNvgFJzlsC&_nc_ht=scontent.fops3-1.fna&oh=00_AYBid_st_UexrT8tNe6FNejcmLDaX22N7R-UPdFN7f9H-A&oe=6649E3B4"
+            "url":"/assets/images/figma.png"
         },
         {
             "name":"Git",
             "alt":"Sistema de versionamento",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/441496846_367986589599468_4101224847810483022_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH8NDenOnLgKZf4l1awp9MZZr-byrh30olmv5vKuHfSiYe4dpbrcRXyUeGLRc_LsR9GmEwA8NlOfdNZPPQfs9z0&_nc_ohc=scEpiOY8rpsQ7kNvgFNRNDx&_nc_ht=scontent.fops3-1.fna&oh=00_AYAsePrLhPHLBKYR9it7DPBFVVzDmaGgVMKpEvnfzE3oAw&oe=6649CC7A"
+            "url":"/assets/images/git.png"
         },
         {
             "name":"Github",
             "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
-            "url":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442408674_367986622932798_7500371693888174861_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEzQGajzsI6nP5F9FXPB70qc_vOLqns9Chz-84uqez0KIjkY0RfNBes8PVo23jMFMzsgljZV6WT3ocjn3jCmOfP&_nc_ohc=sCj-gXqgu9AQ7kNvgEz2Yh8&_nc_ht=scontent.fops3-1.fna&oh=00_AYDz3p35PELVIiSdI5tFIimA_Flb04lPlxGacTjwK_bEZw&oe=6649EAAB"
+            "url":"/assets/images/github.png"
         }
     ],
     "projects": [
@@ -43,7 +43,7 @@
             "description":"Um projeto elegante de newsletter criado com HTML, CSS e JavaScript. Mantenha sua comunidade informada de forma atraente e interativa. Subscreva-se agora!",
             "repository":"https://github.com/JosueCosta2023/FrontEndMentor-newsLetter",
             "deploy":"https://josuecosta2023.github.io/FrontEndMentor-newsLetter/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442405922_367977226267071_930933495228204701_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGw17XCVzn1sffCVFa4bVQcPOEKsYauKbg84Qqxhq4puDjVQaxXWif2wqJLlZMhZCRVaBk2CaIqGbkGlpMDgRlt&_nc_ohc=IAJOCt6VTgoQ7kNvgEyv7cM&_nc_ht=scontent.fops3-1.fna&oh=00_AYCn7dzVL4rUV6ZcQf0TsrHsuDcV1HLLbBmEFft6S3RnjA&oe=6649CB6F",
+            "image":"/assets/images/p1.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -51,7 +51,7 @@
             "description":"Um projeto simples e eficaz para calcular o Índice de Massa Corporal (IMC) usando HTML, CSS e JavaScript. Obtenha sua saúde em dia em um piscar de olhos!",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-imc",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-calculator-imc/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442447873_367977246267069_298638194165648907_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE3Z3ZW0FNX5RJeHI7urasUw2KxhHxXfLzDYrGEfFd8vPUwLeFxSYxFPYS67wsq_lCQTJoqGEPHbw8eGTYcZdLu&_nc_ohc=Ax1gEgSpf3UQ7kNvgHEwvbI&_nc_ht=scontent.fops3-1.fna&oh=00_AYD28H9bg6muTY5uD1Cqa8F59Iy7VTAE2ZtkUSfEvK4l2w&oe=6649D29E",
+            "image":"/assets/images/p2.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -59,7 +59,7 @@
             "description":"Explore a nova era sombria de Gotham! Nossa landing page, desenvolvida com React e JavaScript, oferece uma prévia exclusiva do próximo capítulo épico do Batman. ",
             "repository":"https://github.com/JosueCosta2023/batman-version-react?tab=readme-ov-file",
             "deploy":"https://the-batman-app.netlify.app/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442398449_367977236267070_2046999460200782146_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFzSE1wfT64d8Tol5LhP_nI5JXPkIkNpFbklc-QiQ2kVmZRdpd7RRuyfzzMffPV-b6XI7Vh1dmiB6Ni0hbneki5&_nc_ohc=esMW-5whoc0Q7kNvgGRaSOZ&_nc_ht=scontent.fops3-1.fna&oh=00_AYAXxzvrtA_ilTPJEBFgptn8k8tAlWAl139eCzgyNEpHkA&oe=6649C480",
+            "image":"/assets/images/p3.jpg",
             "tecnology":"React e JavaScript"
         },
         {
@@ -67,7 +67,7 @@
             "description":"Hora de pagar a conta? Nossa calculadora de gorjetas, feita com HTML, CSS e JavaScript, ajuda você a dividir a conta e calcular gorjetas de forma rápida e precisa.",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-tip?tab=readme-ov-file",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-calculator-tip/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442435449_367977252933735_6233005477354128468_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGIwhfaTvXi_Rbc1cjDuYxppzW6y3NgMimnNbrLc2AyKeguk_0j0nd18CG-8s6iKqs_hgw-0Zc_1RqWhwmR56UB&_nc_ohc=SGcM-5S7_ekQ7kNvgGlQD3U&_nc_ht=scontent.fops3-1.fna&oh=00_AYD34YNOuA9ZoOW_xwmYvfG6hV_Mxp_n-Hmt6pbO6CeqUQ&oe=6649BDE3",
+            "image":"/assets/images/p4.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -75,7 +75,7 @@
             "description":"Pokedex simples e direta, criada para fins de estudos, busquei compreender o funcionamento da DOM e aperfeçoei a responsividade.",
             "repository":"https://github.com/JosueCosta2023/DeQuest-mapDev-pokedex",
             "deploy":"https://josuecosta2023.github.io/DeQuest-mapDev-pokedex/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442399522_367977256267068_7135879942838621884_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHFV7c9_ySeo_jzK82QuS5JEA-9Laoa7jcQD70tqhruN_T2reI3EgE4MZltJOpZaZbS2kJXjRvuwWIl5_ZX234R&_nc_ohc=q_fzTI7VCw0Q7kNvgEbmgMm&_nc_ht=scontent.fops3-1.fna&oh=00_AYCAzsFEYZsqRxT3OWZoQ1_4gbEd_erhCfGAy3w75I1P0w&oe=6649BD67",
+            "image":"/assets/images/p5.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -83,7 +83,7 @@
             "description":"Explore os Pokémon com nossa Pokédex React! Consumindo a API Pokédex, alternando entre temas Moon e Sun para uma experiência envolvente.",
             "repository":"https://github.com/JosueCosta2023/pokedex-go",
             "deploy":null,
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442415604_367977272933733_5884772339924486472_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGxiaOZSVuMO9nDoMT3CVblb1wZWk_3hnhvXBlaT_eGeGRUe-u0dGGvBVKkTBTEuoYcW-qmJ_xqkNoathSVHf22&_nc_ohc=n5HsDrGVuQMQ7kNvgFjHLvL&_nc_ht=scontent.fops3-1.fna&oh=00_AYAlIdJOKEZwYW_y2fWPBQknu5yHZICtLsYhATIUSUtA6A&oe=6649E248",
+            "image":"/assets/images/p6.jpg",
             "tecnology":"React, JavaScript e api-Rest"
         },
         {
@@ -91,7 +91,7 @@
             "description":"Componente desenvolvido em HTML e CSS. Desafio base frontEndMentor, ótima oportunidade para aprimorar a semântica html.",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-recipe-page?tab=readme-ov-file",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-recipe-page/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/441505079_367977249600402_1784244765704477934_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGqWcUfyc54ZBXB_z2wM5uEMxshAv0RJgszGyEC_REmC9zfydoyv30PYCZOEhpScWDeLQcawGPnbUELYf6mgEyB&_nc_ohc=Yl2SxhQDgvQQ7kNvgFb3iJP&_nc_ht=scontent.fops3-1.fna&oh=00_AYC0Yg1CblhozSKDgVhvtsODdfKdPPI9kDv-KBTkBoMcQA&oe=6649BD8F",
+            "image":"/assets/images/p7.jpg",
             "tecnology":"html5 e css3"
         },
         {
@@ -99,7 +99,7 @@
             "description":"Componente desenvolvido em HTML e CSS. Desafio pessoal, apliquei animações CSS neste projeto. Estou muito satisfeito com o resultado.",
             "repository":"https://github.com/JosueCosta2023/cards-html-css",
             "deploy":"https://josuecosta2023.github.io/cards-html-css/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442476092_367977389600388_3836381693724841596_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFP7GxBv1XNfN5okPwxyHR9Y3Bu8eQ0OMxjcG7x5DQ4zDU8GKXOcnJzwh65fr1O1zYxsoMYd-7Wyr-EhLqkRxbO&_nc_ohc=CZttO-GwaC0Q7kNvgFoX_ey&_nc_ht=scontent.fops3-1.fna&oh=00_AYDa4v2Vjv2uzPbPRU3UP9PhouLjDWdga3JgjPkstnpL_A&oe=6649F2D2",
+            "image":"/assets/images/p8.jpg",
             "tecnology":"html5 e css3"
         },
         {
@@ -107,7 +107,7 @@
             "description":"Este sistema tem por finalidade unir ONG's e pessoas dispostas a tornar o mundo um lugar melhor para os animais.",
             "repository":"https://github.com/JosueCosta2023/beTheHero?tab=readme-ov-file",
             "deploy":null,
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442447877_367977349600392_2951790647098743296_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF9JKMbLaAAlBNJes_stlarajX4KKngnBFqNfgoqeCcEYeyXNozoPQitbjTVlwsnySMCqUZIES6sXFxEF-zlH9F&_nc_ohc=6Ryrs4fjJXYQ7kNvgEyqBG_&_nc_ht=scontent.fops3-1.fna&oh=00_AYCEXwV3gdCyGU8mcqXbSH5iz7zQLsshTit68ur7Vy-AYw&oe=6649EAD8",
+            "image":"/assets/images/p9.jpg",
             "tecnology":"react, javascript, react-native, super-test e sQlite"
         },
         {
@@ -115,7 +115,7 @@
             "description":"LandingPage estática para escolas de cursos, realizado com html, css. Página com redirecionamento para blogs, projeto final de curso de HTML e CSS",
             "repository":"https://github.com/JosueCosta2023/UpInsinde-Quest-BloggerPage",
             "deploy":"https://josuecosta2023.github.io/UpInsinde-Quest-BloggerPage/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/441488519_367977269600400_3064263629355926966_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFE4jJhTo-wQjkLceYAPeEmbkWHbzYwBkNuRYdvNjAGQ7rbpCxRGJyYflMcjo7pI1Oiq0KD_-KhUqTJaWuIK_Y9&_nc_ohc=ZYdO1f-SLXcQ7kNvgFxWo4_&_nc_ht=scontent.fops3-1.fna&oh=00_AYDApGAeDZC-SfTgn7qC5Iui41KMC6Ypfn79CP10RdXSYQ&oe=6649DF63",
+            "image":"/assets/images/p10.jpg",
             "tecnology":"HTML5 e CSS3"
         },
         {
@@ -123,7 +123,7 @@
             "description":"LandingPage estática para agencias digitais, realizado com html, css e javascript. Primeira implementação de slides.",
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-LandingPageMP",
             "deploy":"https://josuecosta2023.github.io/DevQuest-Quest-LandingPageMP/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442502866_367977266267067_7184303578026722980_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG56Mt6ocR2WOpiBN47vBG1YL7Lsqnc3BpgvsuyqdzcGsU5-6zr8h7lYKCf7F4ntxooYiLO2aVNs0IalGj2lsw2&_nc_ohc=93Q6jg4z99gQ7kNvgF4cAS4&_nc_ht=scontent.fops3-1.fna&oh=00_AYA1tSNPec3dIQsh1nWIhgXSrtPNpTwDCrAaxH5kn4WXAg&oe=6649C614",
+            "image":"/assets/images/p11.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         },
         {
@@ -131,7 +131,7 @@
             "description":"Explore usuários do GitHub com nossa página de pesquisa. Consumindo a API do GitHub, lista usuários para sua busca. Descubra perfis e projetos facilmente!",
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-fetch-github-api",
             "deploy":"https://josuecosta2023.github.io/DevQuest-Quest-fetch-github-api/",
-            "image":"https://scontent.fops3-1.fna.fbcdn.net/v/t39.30808-6/442398421_367977352933725_5583047087148540906_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF8hxTkp76JboMIJjOniudqG3elJ_quGNwbd6Un-q4Y3BMoFk6HLNuJxDad-TlKoWLyMYGyMnWGgtuga0K2YMlv&_nc_ohc=if0p__S2QKAQ7kNvgGZAG2N&_nc_ht=scontent.fops3-1.fna&oh=00_AYAP_T4jQnVKGZ2HJ-KpFKJbbvMye1IcBnNvWZXKdAIUrg&oe=6649CB8E",
+            "image":"/assets/images/p12.jpg",
             "tecnology":"HTML5, CSS3 e JavaScript"
         }
 
