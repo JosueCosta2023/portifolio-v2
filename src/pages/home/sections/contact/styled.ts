@@ -24,7 +24,8 @@ export const ContactSectionContainer = styled.section`
             align-items: center;
             height: auto;
             & > div{
-                width: 90%;
+                width: 100%;
+                padding: 10px;
             }
         }
     }
@@ -134,10 +135,11 @@ export const ContactAddressCard = styled.div`
         }
         & > p{
             font-size: 14px;
+            flex-wrap: wrap;
             font-weight: 600;
             color: var(--secundary-normal);
             @media(max-width: 380px){
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         

@@ -82,7 +82,7 @@ export const HeroInfo = styled.div`
 
     @media(max-width: 425px){
         & > h3{
-        font-size: 42px;
+        font-size: 32px;
     }
     }
     

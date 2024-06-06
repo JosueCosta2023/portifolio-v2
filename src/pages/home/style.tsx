@@ -84,6 +84,12 @@ export const FContent = styled.div`
             cursor: none;
         }
     }
+    @media(max-width: 768px){
+        & > p {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
 
 
 `

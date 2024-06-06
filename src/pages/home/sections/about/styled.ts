@@ -100,7 +100,7 @@ export const AboutDetailsSocial = styled.div`
             margin-bottom: 32px;
             color: var(--secundary-normal);
             @media(max-width: 768px){
-                font-size: 38px;
+                font-size: 28px;
             }
         }
         & > p{
@@ -150,6 +150,7 @@ export const AboutContentGray = styled.div`
             align-items: center;
             height: auto;
         }
+
     }
     @media(max-width: 1450px){
         margin-top: 50px;
@@ -176,6 +177,9 @@ export const AboutProccessDetails = styled.div`
             color: var(--secundary-normal);
             margin-top: 180px;
             margin-bottom: 24px;
+            @media(max-width: 630px){
+                font-size: 28px;
+            }
         }
         & > p{
             font-size: 18px;
