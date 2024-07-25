@@ -19,7 +19,7 @@ export const Hero = () => {
       <HeroContent>
         <HeroDetails>
           <HeroInfo>
-            <h3>Desenvolvedor Frontend</h3>
+            <h3>Desenvolvedor Fullstack</h3>
             <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor web Fullsatck com foco em criar experiências digitais envolventes e funcionais. Minha paixão pela tecnologia me impulsiona a explorar novas ideias e aprimorar constantemente minhas habilidades.</p>
               <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
                 Fale comigo!<FaWhatsapp/>

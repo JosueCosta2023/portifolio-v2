@@ -29,9 +29,9 @@ export const About = () => {
 
                 <AboutDetailsSocial>
                     <div>
-                        <h2> De Infraestrutura de TI para Desenvolvimento Frontend</h2>
+                        <h2> De Infraestrutura de TI para Desenvolvimento Web</h2>
                         <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento web.
-                        Com uma sólida base em tecnologia da informação e infraestrutura, estou entusiasmado em aplicar minha experiência para criar interfaces digitais impressionantes e funcionais. Estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript, React, Node.js, Swagger, PostgreSql e Prisma.</p>
+                        Com uma sólida base em tecnologia da informação, estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript, React, Node.js, Swagger, PostgreSql e Prisma.</p>
                         <p>
                         Minha jornada é impulsionada pelo desejo de construir produtos interativos e acessíveis que proporcionem experiências positivas aos usuários. Estou animado para explorar novos desafios, colaborar com equipes criativas e contribuir para projetos inovadores.
                         </p>
