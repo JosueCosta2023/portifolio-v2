@@ -30,10 +30,10 @@ export const About = () => {
                 <AboutDetailsSocial>
                     <div>
                         <h2> De Infraestrutura de TI para Desenvolvimento Frontend</h2>
-                        <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento frontend.
-                        Com uma sólida base em tecnologia da informação e infraestrutura, estou entusiasmado em aplicar minha experiência para criar interfaces digitais impressionantes e funcionais. Estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript e frameworks populares como React.</p>
+                        <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento web.
+                        Com uma sólida base em tecnologia da informação e infraestrutura, estou entusiasmado em aplicar minha experiência para criar interfaces digitais impressionantes e funcionais. Estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript, React, Node.js, Swagger, PostgreSql e Prisma.</p>
                         <p>
-                        Minha jornada no frontend é impulsionada pelo desejo de construir produtos interativos e acessíveis que proporcionem experiências positivas aos usuários. Estou animado para explorar novos desafios, colaborar com equipes criativas e contribuir para projetos inovadores.
+                        Minha jornada é impulsionada pelo desejo de construir produtos interativos e acessíveis que proporcionem experiências positivas aos usuários. Estou animado para explorar novos desafios, colaborar com equipes criativas e contribuir para projetos inovadores.
                         </p>
                         <div>
                             <ButtomPrimaryNormal onClick={() => scrollToSection('project')}>
@@ -56,7 +56,7 @@ export const About = () => {
                         <div>
                             <h2>Como organizo o desenvolvimento de meus projetos?</h2>
                             <p>
-                            Ao iniciar um projeto de desenvolvimento web, adoto um fluxo de trabalho estruturado para garantir resultados de alta qualidade e eficiência. Aqui está uma visão geral do meu processo:
+                            Ao iniciar um projeto de desenvolvimento web, adoto um fluxo de trabalho estruturado para garantir resultados de alta qualidade e eficiência. 
                             </p>
                             <p>
                             Este fluxo de trabalho cuidadosamente planejado me permite criar websites robustos, responsivos e intuitivos, mantendo-me organizado e possibilitando uma colaboração eficaz com outros membros da equipe, quando aplicável.

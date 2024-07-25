@@ -34,6 +34,21 @@
             "name":"Github",
             "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
             "url":"/assets/images/github.png"
+        },
+        {
+            "name":"PostgreSQL",
+            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "url":"/assets/images/postgre.png"
+        },
+        {
+            "name":"Node.js",
+            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "url":"/assets/images/nodejs.png"
+        },
+        {
+            "name":"Prisma",
+            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "url":"/assets/images/prisma.png"
         }
     ],
     "projects": [

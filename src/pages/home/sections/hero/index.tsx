@@ -8,7 +8,7 @@ import {
   HeroInfo,
   HeroSectionContainer,
 } from "./styled";
-import ImagemPadrao from '/assets/images/perfilImage.png'
+import ImagemPadrao from '/assets/images/josue.png';
 import { handleClickWhatsapp } from "../../../../components/utils";
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary";
 
@@ -20,7 +20,7 @@ export const Hero = () => {
         <HeroDetails>
           <HeroInfo>
             <h3>Desenvolvedor Frontend</h3>
-            <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor frontend com foco em criar experiências digitais envolventes e funcionais. Minha paixão pela tecnologia me impulsiona a explorar novas ideias e aprimorar constantemente minhas habilidades..</p>
+            <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor web Fullsatck com foco em criar experiências digitais envolventes e funcionais. Minha paixão pela tecnologia me impulsiona a explorar novas ideias e aprimorar constantemente minhas habilidades.</p>
               <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
                 Fale comigo!<FaWhatsapp/>
               </ButtomPrimaryNormal>
@@ -28,17 +28,17 @@ export const Hero = () => {
 
           <HeroData>
             <HeroDataItem>
-              <strong>1.5Y</strong>
-              <p>Experience</p>
+              <strong>2 anos</strong>
+              <p>Experiência</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>7+</strong>
+              <strong>9+</strong>
               <p>Projetos</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>5+</strong>
+              <strong>10</strong>
               <p>Tecnologias</p>
             </HeroDataItem>
           </HeroData>

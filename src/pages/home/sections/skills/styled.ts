@@ -24,6 +24,7 @@ export const ExperienceSectionContainer = styled.section`
 
 export const ExperienceHardSkilss = styled.div`
     width: 100%;
+    max-width: 70%;
     height: auto;
     display: flex;
     align-items: center;
