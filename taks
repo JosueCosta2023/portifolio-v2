@@ -1,10 +1,8 @@
-Instalar bibliotecas
-    x styled-components
-    x react router dom
-    x Material ui
-    x alimentaçao axios
+TODO
 
-    Loading animado aos
-    menu sanduiche em mobile
-    botao voltar ao topo
-    site de pagina unica spa
+    * Implemnatar Google Analitycs
+    * Ordenar projetos por data de inserção descendente
+    * Alterar campos de formulario, 
+        - Atualmente: Nome, Email, Assunto, Orçamento, Mensagem
+        - Alterne para: Nome, Email, Mensagem.
+        - Atualizar textos de exbição para seu momento atual.
