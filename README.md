@@ -65,5 +65,5 @@ Navegue pelas diferentes seções do portfólio para conhecer meus projetos e mi
 
 # "Vida longa e próspera. 🖖🖖🖖"
 Feito com o ❤️ por Josué Ocanha Costa
-## [Acesse o Deploy](https://admirable-sprinkles-8d6703.netlify.app/)
+## [Acesse o Deploy](https://portifolio-v2-nu.vercel.app/)
 ### [Acesse o repositório](https://github.com/JosueCosta2023/portifolio-v2)
