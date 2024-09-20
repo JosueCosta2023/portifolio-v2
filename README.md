@@ -38,7 +38,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 ### Ilustração
 <div style="display:flex, justifyContent: center, width: 1024px">
-    <img src="/assets/ilustracao.png" alt="Descrição da imagem" width="100%">
+    <img src="/public/assets/ilustracao.png" alt="Descrição da imagem" width="100%">
 </div>
 
 ## Uso
