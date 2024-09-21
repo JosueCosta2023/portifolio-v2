@@ -54,6 +54,7 @@
     "projects": [
 
         {
+            "id":"",
             "name":"Formulario de NewsLetter",
             "description":"Um projeto elegante de newsletter criado com HTML, CSS e JavaScript. Mantenha sua comunidade informada de forma atraente e interativa. Subscreva-se agora!",
             "repository":"https://github.com/JosueCosta2023/FrontEndMentor-newsLetter",
@@ -63,6 +64,7 @@
             "date_release":"04/11/2023"
         },
         {
+            "id":"",
             "name":"Calculadora de IMC",
             "description":"Um projeto simples e eficaz para calcular o Índice de Massa Corporal (IMC) usando HTML, CSS e JavaScript. Obtenha sua saúde em dia em um piscar de olhos!",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-imc",
@@ -72,6 +74,7 @@
             "date_release":"22/01/2024"
         },
         {
+            "id":"",
             "name":"The Batman Publish",
             "description":"Explore a nova era sombria de Gotham! Nossa landing page, desenvolvida com React e JavaScript, oferece uma prévia exclusiva do próximo capítulo épico do Batman. ",
             "repository":"https://github.com/JosueCosta2023/batman-version-react?tab=readme-ov-file",
@@ -81,6 +84,7 @@
             "date_release":"12/03/2024"
         },
         {
+            "id":"",
             "name":"Calculadora de Gorjetas",
             "description":"Hora de pagar a conta? Nossa calculadora de gorjetas, feita com HTML, CSS e JavaScript, ajuda você a dividir a conta e calcular gorjetas de forma rápida e precisa.",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-tip?tab=readme-ov-file",
@@ -90,6 +94,7 @@
             "date_release":"12/01/2024"
         },
         {
+            "id":"",
             "name":"Pokedex Básica",
             "description":"Pokedex simples e direta, criada para fins de estudos, busquei compreender o funcionamento da DOM e aperfeçoei a responsividade.",
             "repository":"https://github.com/JosueCosta2023/DeQuest-mapDev-pokedex",
@@ -99,15 +104,17 @@
             "date_release":"07/02/2024"
         },
         {
+            "id":"",
             "name":"Pokedex Avançada",
             "description":"Explore os Pokémon com nossa Pokédex React! Consumindo a API Pokédex, alternando entre temas Moon e Sun para uma experiência envolvente.",
             "repository":"https://github.com/JosueCosta2023/pokedex-go",
-            "deploy":null,
+            "deploy":"https://main--pokedexgogo.netlify.app/",
             "image":"/assets/images/p6.jpg",
             "tecnology":"React, JavaScript e api-Rest",
             "date_release":"06/04/2024"
         },
         {
+            "id":"",
             "name":"Receita Simples",
             "description":"Componente desenvolvido em HTML e CSS. Desafio base frontEndMentor, ótima oportunidade para aprimorar a semântica html.",
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-recipe-page?tab=readme-ov-file",
@@ -117,6 +124,7 @@
             "date_release":"23/01/2024"
         },
         {
+            "id":"",
             "name":"Cards de Serviços",
             "description":"Componente desenvolvido em HTML e CSS. Desafio pessoal, apliquei animações CSS neste projeto. Estou muito satisfeito com o resultado.",
             "repository":"https://github.com/JosueCosta2023/cards-html-css",
@@ -126,6 +134,7 @@
             "date_release":"03/02/2024"
         },
         {
+            "id":"",
             "name":"Seja o Herói",
             "description":"Este sistema tem por finalidade unir ONG's e pessoas dispostas a tornar o mundo um lugar melhor para os animais.",
             "repository":"https://github.com/JosueCosta2023/beTheHero?tab=readme-ov-file",
@@ -135,6 +144,7 @@
             "date_release":"28/03/2024"
         },
         {
+            "id":"",
             "name":"Landing Page Institucional",
             "description":"LandingPage estática para escolas de cursos, realizado com html, css. Página com redirecionamento para blogs, projeto final de curso de HTML e CSS",
             "repository":"https://github.com/JosueCosta2023/UpInsinde-Quest-BloggerPage",
@@ -144,6 +154,7 @@
             "date_release":"09/03/2024"
         },
         {
+            "id":"",
             "name":"Landing Page Institucional",
             "description":"LandingPage estática para agencias digitais, realizado com html, css e javascript. Primeira implementação de slides.",
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-LandingPageMP",
@@ -153,6 +164,7 @@
             "date_release":"31/12/2023"
         },
         {
+            "id":"",
             "name":"Github Search Api",
             "description":"Explore usuários do GitHub com nossa página de pesquisa. Consumindo a API do GitHub, lista usuários para sua busca. Descubra perfis e projetos facilmente!",
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-fetch-github-api",
