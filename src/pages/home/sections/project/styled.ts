@@ -62,6 +62,17 @@ export const Card = styled.div`
     height: 476px;
     border: 1px solid var(--tertiary-lightPlus);
     border-radius: 15px;
+    position: relative;
+
+    & > h4 {
+            position: absolute;
+            bottom: 155px;
+            right:28px;
+            font-size: 18px;
+            opacity: 0.5;
+            color: black;
+        }
+
     @media(max-width: 460px){
         width: 90%;
         height: auto;

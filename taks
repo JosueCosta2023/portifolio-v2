@@ -1,7 +1,7 @@
 TODO
 
     * Implemnatar Google Analitycs - ok
-    * Ordenar projetos por data de inserção descendente
+    * Ordenar projetos decrescente - ok
     * Alterar campos de formulario, 
         - Atualmente: Nome, Email, Assunto, Orçamento, Mensagem
         - Alterne para: Nome, Email, Mensagem.
