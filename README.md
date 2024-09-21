@@ -19,6 +19,7 @@ Este portfólio tem como objetivo mostrar minha transição de Analista de Supor
 - **TypeScript:** Superset de JavaScript que adiciona tipos estáticos ao código.
 - **EmailJS:** Serviço para envio de e-mails diretamente do frontend.
 - **WhatsApp Me:** Integração para envio de mensagens via WhatsApp.
+- **Google Analytics:** Para monitor e o fluxo dos usuários
 
 ## Instalação
 
