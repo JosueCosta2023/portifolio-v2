@@ -76,12 +76,13 @@ export const Card = styled.div`
     & > div {
         width: 100%;
         padding: 30px;
-        & > span{
+
+        & > div > span{
             font-size: 12px;
             color: var(--tertiary-lightPlus);
             display: block;
-            margin-bottom: 4px;
             text-transform: uppercase;
+            margin-bottom: 6px;
         }
         & > h3 {
             font-size: 18px;

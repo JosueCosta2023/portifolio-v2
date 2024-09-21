@@ -13,7 +13,8 @@ type Projetos = {
    "image":string, 
    "repository":string, 
    "deploy":string | null, 
-   "tecnology":string 
+   "tecnology":string ,
+   "date_release": string
 }
 
 export const Project = () => {
@@ -31,7 +32,6 @@ export const Project = () => {
         setLoadMoreCount(newCount)
         setVisible(visible.slice(0, newCount))
     }
-
 
     return(
         <ProjectSectionContainer id="project">
@@ -51,7 +51,10 @@ export const Project = () => {
                                     alt={project.name}
                                 />
                                 <div>
-                                    <span>{project.tecnology}</span>
+                                    <div>
+                                        <span>{project.tecnology}</span>
+                                        <span>{project.date_release}</span>
+                                    </div>
                                     <h3>{project.name}</h3>
                                     <p>{project.description}</p>
                                     <div>
@@ -70,6 +73,7 @@ export const Project = () => {
                             </Card>
                         ))
                     }
+
                 </ContentCards>
 
                 {

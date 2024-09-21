@@ -59,7 +59,8 @@
             "repository":"https://github.com/JosueCosta2023/FrontEndMentor-newsLetter",
             "deploy":"https://josuecosta2023.github.io/FrontEndMentor-newsLetter/",
             "image":"/assets/images/p1.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"04/11/2023"
         },
         {
             "name":"Calculadora de IMC",
@@ -67,7 +68,8 @@
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-imc",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-calculator-imc/",
             "image":"/assets/images/p2.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"22/01/2024"
         },
         {
             "name":"The Batman Publish",
@@ -75,7 +77,8 @@
             "repository":"https://github.com/JosueCosta2023/batman-version-react?tab=readme-ov-file",
             "deploy":"https://the-batman-app.netlify.app/",
             "image":"/assets/images/p3.jpg",
-            "tecnology":"React e JavaScript"
+            "tecnology":"React e JavaScript",
+            "date_release":"12/03/2024"
         },
         {
             "name":"Calculadora de Gorjetas",
@@ -83,7 +86,8 @@
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-calculator-tip?tab=readme-ov-file",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-calculator-tip/",
             "image":"/assets/images/p4.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"12/01/2024"
         },
         {
             "name":"Pokedex Básica",
@@ -91,7 +95,8 @@
             "repository":"https://github.com/JosueCosta2023/DeQuest-mapDev-pokedex",
             "deploy":"https://josuecosta2023.github.io/DeQuest-mapDev-pokedex/",
             "image":"/assets/images/p5.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"07/02/2024"
         },
         {
             "name":"Pokedex Avançada",
@@ -99,7 +104,8 @@
             "repository":"https://github.com/JosueCosta2023/pokedex-go",
             "deploy":null,
             "image":"/assets/images/p6.jpg",
-            "tecnology":"React, JavaScript e api-Rest"
+            "tecnology":"React, JavaScript e api-Rest",
+            "date_release":"06/04/2024"
         },
         {
             "name":"Receita Simples",
@@ -107,7 +113,8 @@
             "repository":"https://github.com/JosueCosta2023/PersonalQuest-recipe-page?tab=readme-ov-file",
             "deploy":"https://josuecosta2023.github.io/PersonalQuest-recipe-page/",
             "image":"/assets/images/p7.jpg",
-            "tecnology":"html5 e css3"
+            "tecnology":"html5 e css3",
+            "date_release":"23/01/2024"
         },
         {
             "name":"Cards de Serviços",
@@ -115,7 +122,8 @@
             "repository":"https://github.com/JosueCosta2023/cards-html-css",
             "deploy":"https://josuecosta2023.github.io/cards-html-css/",
             "image":"/assets/images/p8.jpg",
-            "tecnology":"html5 e css3"
+            "tecnology":"html5 e css3",
+            "date_release":"03/02/2024"
         },
         {
             "name":"Seja o Herói",
@@ -123,7 +131,8 @@
             "repository":"https://github.com/JosueCosta2023/beTheHero?tab=readme-ov-file",
             "deploy":null,
             "image":"/assets/images/p9.jpg",
-            "tecnology":"react, javascript, react-native, super-test e sQlite"
+            "tecnology":"react-native, super-test e sQlite",
+            "date_release":"28/03/2024"
         },
         {
             "name":"Landing Page Institucional",
@@ -131,7 +140,8 @@
             "repository":"https://github.com/JosueCosta2023/UpInsinde-Quest-BloggerPage",
             "deploy":"https://josuecosta2023.github.io/UpInsinde-Quest-BloggerPage/",
             "image":"/assets/images/p10.jpg",
-            "tecnology":"HTML5 e CSS3"
+            "tecnology":"HTML5 e CSS3",
+            "date_release":"09/03/2024"
         },
         {
             "name":"Landing Page Institucional",
@@ -139,7 +149,8 @@
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-LandingPageMP",
             "deploy":"https://josuecosta2023.github.io/DevQuest-Quest-LandingPageMP/",
             "image":"/assets/images/p11.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"31/12/2023"
         },
         {
             "name":"Github Search Api",
@@ -147,7 +158,8 @@
             "repository":"https://github.com/JosueCosta2023/DevQuest-Quest-fetch-github-api",
             "deploy":"https://josuecosta2023.github.io/DevQuest-Quest-fetch-github-api/",
             "image":"/assets/images/p12.jpg",
-            "tecnology":"HTML5, CSS3 e JavaScript"
+            "tecnology":"HTML5, CSS3 e JavaScript",
+            "date_release":"12/01/2024"
         }
 
     ]
