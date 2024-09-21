@@ -11,9 +11,6 @@ import emailJs from '@emailjs/browser'
 interface IFormValues {
     name: string
     email: string
-    location: string
-    budget: number
-    subject: string
     message?: string
 }
 
@@ -31,9 +28,7 @@ export const Contact = () => {
 
         const templateParams = {
             from_name: data.name,
-            subject: data.subject,
             message: data.message,
-            budget_value: data.budget,
             email: data.email
         }
 
@@ -126,44 +121,10 @@ export const Contact = () => {
                                 />
                         </InputForm>
 
-                        <InputForm>
-                            {errors.location && <span>{errors.location.message}</span>}
-                            <input type="location" 
-                                placeholder="Localização*"
-                                id="location"
-                                className="campo-preenchido"
-                                {
-                                    ...register('location', {required: "Campo Obrigatório."})
-                                }
-                                />
-                        </InputForm>
-                        <div>
-                            <InputForm>
-                                {errors.budget && <span>{errors.budget.message}</span>}
-                                <input type="budget" 
-                                    placeholder="Orçamento*"
-                                    id="budget"
-                                    className="campo-preenchido"
-                                    {
-                                        ...register('budget', {required: "Campo Obrigatório."})
-                                    }
-                                    />
-                            </InputForm>
-                            <InputForm>
-                                {errors.subject && <span>{errors.subject.message}</span>}
-                                <input type="subject" 
-                                    placeholder="Assunto*"
-                                    id="subject"
-                                    {
-                                        ...register('subject', {required: "Campo Obrigatório."})
-                                    }
-                                    />
-                            </InputForm>
-
-                        </div>
+                       
                         <InputForm>
                                 {errors.message && <span>{errors.message.message}</span>}
-                                <input type="message" 
+                                <input 
                                     placeholder="Mensagem*"
                                     id="message"
                                     className="campo-preenchido"

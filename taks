@@ -2,7 +2,7 @@ TODO
 
     * Implemnatar Google Analitycs - ok
     * Ordenar projetos decrescente - ok
-    * Alterar campos de formulario, 
-        - Atualmente: Nome, Email, Assunto, Orçamento, Mensagem
-        - Alterne para: Nome, Email, Mensagem.
-        - Atualizar textos de exbição para seu momento atual.
+    * Alterar campos de formulario,  - ok
+        - Atualmente: Nome, Email, Assunto, Orçamento,Localização, Mensagem
+        - Alterne para: Nome, Email, Mensagem. 
+    * Atualizar textos de exbição para seu momento atual.

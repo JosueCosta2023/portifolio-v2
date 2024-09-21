@@ -152,10 +152,12 @@ export const ContactFormContent = styled.div`
     max-width: 100%;
     height: 100%;
     padding: 144px 88px;
+
     @media(max-width: 1024px){
         padding: 60px 88px;
         & > form > p{
             text-align: center;
+            
         }
     }
     @media(max-width: 495px){
@@ -164,6 +166,12 @@ export const ContactFormContent = styled.div`
     & > form {
         width: 100%;
         height: 100%;
+
+        
+    @media(max-width:1030px){
+        padding: 0px 20px;
+    }
+
         & > p{
             font-size: 18px;
             color: var(--tertiary-normal);
@@ -182,9 +190,10 @@ export const ContactFormContent = styled.div`
 export const InputForm = styled.div`
     width: 100%;
     height: 38px;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
     margin-bottom: 24px;
+   
     & > span {
         position: absolute;
         right: 5px;
@@ -194,6 +203,7 @@ export const InputForm = styled.div`
         letter-spacing: 2px;
         font-size: 10px;
     }
+
     & > input {
         width: 100%;
         height: 100%;
