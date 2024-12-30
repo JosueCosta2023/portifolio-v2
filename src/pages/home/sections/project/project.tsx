@@ -17,7 +17,7 @@ type Projetos = {
   name: string;
   description: string;
   image: string;
-  repository: string;
+  repository: string | null;
   deploy: string | null;
   tecnology: string;
   date_release: string;
