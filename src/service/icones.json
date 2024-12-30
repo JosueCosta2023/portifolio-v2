@@ -171,6 +171,29 @@
             "image": "/assets/images/p6.jpg",
             "tecnology": "React, JavaScript e api-Rest",
             "date_release": "06/04/2024"
+        },
+
+
+
+        {
+            "id": 13,
+            "name": "Buscador de Descontos",
+            "description": "O Buscador de Descontos é um aplicativo desenvolvido para simplificar a busca e utilização de cupons promocionais em lojas parceiras.",
+            "repository": "https://github.com/JosueCosta2023/nlw-mobile",
+            "deploy": null,
+            "image": "/assets/images/p13.png",
+            "tecnology": "React-Native, TypeScript, Expo-go",
+            "date_release": "21/12/2024"
+        },
+        {
+            "id": 14,
+            "name": "Finance Ai",
+            "description": "Finance AI, uma fintech inovadora que une tecnologia de ponta à inteligência artificial para transformar a maneira como você gerencia suas finanças",
+            "repository": null,
+            "deploy": "https://finance-ai-gilt.vercel.app/login",
+            "image": "/assets/images/p14.png",
+            "tecnology": "React, Next, TypeScript, ChatGptApi",
+            "date_release": "30/12/2024"
         }
     ]
     

@@ -73,9 +73,13 @@ export const Project = () => {
                   <p>{project.description}</p>
 
                   <div>
-                    <a href={project.repository} target="_blank">
-                      Github <FaGithub />
-                    </a>
+                    {project.repository === null ? (
+                      "Acesso Privado" 
+                    ) : (
+                      <a href={project.repository} target="_blank">
+                        Github <FaGithub />
+                      </a>
+                    )}
 
                     {project.deploy === null ? (
                       "Necessário instalação local"
