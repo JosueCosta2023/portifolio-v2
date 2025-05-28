@@ -63,16 +63,6 @@
             "date_release": "04/11/2023"
         },
         {
-            "id": 2,
-            "name": "Landing Page Institucional",
-            "description": "LandingPage estática para agencias digitais, realizado com html, css e javascript. Primeira implementação de slides.",
-            "repository": "https://github.com/JosueCosta2023/DevQuest-Quest-LandingPageMP",
-            "deploy": "https://josuecosta2023.github.io/DevQuest-Quest-LandingPageMP/",
-            "image": "/assets/images/p11.jpg",
-            "tecnology": "HTML5, CSS3 e JavaScript",
-            "date_release": "31/12/2023"
-        },
-        {
             "id": 3,
             "name": "Calculadora de IMC",
             "description": "Um projeto simples e eficaz para calcular o Índice de Massa Corporal (IMC) usando HTML, CSS e JavaScript. Obtenha sua saúde em dia em um piscar de olhos!",
@@ -81,16 +71,6 @@
             "image": "/assets/images/p2.jpg",
             "tecnology": "HTML5, CSS3 e JavaScript",
             "date_release": "22/01/2024"
-        },
-        {
-            "id": 4,
-            "name": "Receita Simples",
-            "description": "Componente desenvolvido em HTML e CSS. Desafio base frontEndMentor, ótima oportunidade para aprimorar a semântica html.",
-            "repository": "https://github.com/JosueCosta2023/PersonalQuest-recipe-page?tab=readme-ov-file",
-            "deploy": "https://josuecosta2023.github.io/PersonalQuest-recipe-page/",
-            "image": "/assets/images/p7.jpg",
-            "tecnology": "html5 e css3",
-            "date_release": "23/01/2024"
         },
         {
             "id": 5,
@@ -121,16 +101,6 @@
             "image": "/assets/images/p8.jpg",
             "tecnology": "html5 e css3",
             "date_release": "03/02/2024"
-        },
-        {
-            "id": 8,
-            "name": "Pokedex Básica",
-            "description": "Pokedex simples e direta, criada para fins de estudos, busquei compreender o funcionamento da DOM e aperfeçoei a responsividade.",
-            "repository": "https://github.com/JosueCosta2023/DeQuest-mapDev-pokedex",
-            "deploy": "https://josuecosta2023.github.io/DeQuest-mapDev-pokedex/",
-            "image": "/assets/images/p5.jpg",
-            "tecnology": "HTML5, CSS3 e JavaScript",
-            "date_release": "07/02/2024"
         },
         {
             "id": 9,
