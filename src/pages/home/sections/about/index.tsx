@@ -1,11 +1,11 @@
-import {FaCss3, FaDownload, FaFigma, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaReact, FaUsers, FaWhatsapp } from "react-icons/fa"
-import { AboutContentGray, AboutContentWhite, AboutDetailsSocial, AboutImageSocial, AboutProccessCards, AboutProccessDetails, AboutSectionStyle, Card, ProccessBottom, ProccessTop } from "./styled"
-import { SiFrontendmentor, SiTypescript } from "react-icons/si"
+import { FaDownload, FaGithub, FaInstagram, FaLinkedin,  FaWhatsapp } from "react-icons/fa"
+import {  AboutContentWhite, AboutDetailsSocial, AboutImageSocial, AboutSectionStyle, } from "./styled"
+import { SiFrontendmentor } from "react-icons/si"
 import ImageDefaul from '/assets/images/perfilImageSocial.png'
 import { ButtomPrimaryNormal, ButtomPrimaryWire } from "../../../../components/buttons/buttonPrimary"
 import { handleClickGithub, handleClickInstagran, handleClickLinkedin, handleClickMentor, handleClickWhatsapp, handleDonwload, scrollToSection } from "../../../../components/utils"
-import { MdJavascript } from "react-icons/md"
-import {  GiTalk } from "react-icons/gi"
+
+
 
 
 export const About = () => {
@@ -29,12 +29,16 @@ export const About = () => {
 
                 <AboutDetailsSocial>
                     <div>
-                        <h2> De Infraestrutura de TI para Desenvolvimento Web</h2>
-                        <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento web.
+                        <h2>Histórico e momento profissional</h2>
+                        <p>Sou um profisonal em transição de carreira. Estou saindo de infraestrutura de T.I para me tornar desenvolvedor de sistemas.</p>
+                        <p>Para alcançar este objetivo me dedico a estudos na area de frontend e backend.</p>
+                        <p>O momento atual da area de desenvolvimento exige profissionais com conhecimentos muito além do frontend e backend tradicionais, por isso inicie minha graduação em INTELIGÊNCIA ARTIFICIAL E LINGUAGEM DE MAQUINA.</p>
+                        <p>Hoje desenvolvo meus projetos utilizando IA's como Copilot e ChatGPT visando garantir a segurança e o melhor desempenho e padronização de minhas aplicações.</p>
+                        {/* <p>Estou embarcando em uma emocionante transição de carreira, deixando para trás a infraestrutura de TI para me dedicar ao desenvolvimento web.
                         Com uma sólida base em tecnologia da informação, estou comprometido em aprender continuamente e dominar as ferramentas modernas de frontend, como HTML, CSS, JavaScript, Typescript, React, Node.js, Swagger, PostgreSql e Prisma.</p>
                         <p>
                         Minha jornada é impulsionada pelo desejo de construir produtos interativos e acessíveis que proporcionem experiências positivas aos usuários. Estou animado para explorar novos desafios, colaborar com equipes criativas e contribuir para projetos inovadores.
-                        </p>
+                        </p> */}
                         <div>
                             <ButtomPrimaryNormal onClick={() => scrollToSection('project')}>
                                 Meus Projetos
@@ -50,7 +54,7 @@ export const About = () => {
 
             </AboutContentWhite>
 
-            <AboutContentGray>
+            {/* <AboutContentGray>
                 <div>
                     <AboutProccessDetails>
                         <div>
@@ -113,7 +117,7 @@ export const About = () => {
                         </div>
                     </AboutProccessCards>
                 </div>
-            </AboutContentGray>
+            </AboutContentGray> */}
         </AboutSectionStyle>
     )
 }

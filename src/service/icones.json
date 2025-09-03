@@ -37,18 +37,23 @@
         },
         {
             "name":"PostgreSQL",
-            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "alt":"Banco de Dados Relacional",
             "url":"/assets/images/postgre.png"
         },
         {
             "name":"Node.js",
-            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "alt":"Framework Javascript para backend",
             "url":"/assets/images/nodejs.png"
         },
         {
             "name":"Prisma",
-            "alt":"Plataforma de hospedagem e colaboração de código-fonte baseada em Git",
+            "alt":"ORM para comunicação com banco de dados, uso em backend.",
             "url":"/assets/images/prisma.png"
+        },
+        {
+            "name":"TailWindCss",
+            "alt":"Framework CSS para estilização",
+            "url":"/assets/images/tailwind.svg"
         }
     ],
     "projects": [
@@ -63,7 +68,7 @@
             "date_release": "04/11/2023"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Calculadora de IMC",
             "description": "Um projeto simples e eficaz para calcular o Índice de Massa Corporal (IMC) usando HTML, CSS e JavaScript. Obtenha sua saúde em dia em um piscar de olhos!",
             "repository": "https://github.com/JosueCosta2023/PersonalQuest-calculator-imc",
@@ -73,7 +78,7 @@
             "date_release": "22/01/2024"
         },
         {
-            "id": 5,
+            "id": 3,
             "name": "Calculadora de Gorjetas",
             "description": "Hora de pagar a conta? Nossa calculadora de gorjetas, feita com HTML, CSS e JavaScript, ajuda você a dividir a conta e calcular gorjetas de forma rápida e precisa.",
             "repository": "https://github.com/JosueCosta2023/PersonalQuest-calculator-tip?tab=readme-ov-file",
@@ -83,7 +88,7 @@
             "date_release": "12/01/2024"
         },
         {
-            "id": 6,
+            "id": 4,
             "name": "Github Search Api",
             "description": "Explore usuários do GitHub com nossa página de pesquisa. Consumindo a API do GitHub, lista usuários para sua busca. Descubra perfis e projetos facilmente!",
             "repository": "https://github.com/JosueCosta2023/DevQuest-Quest-fetch-github-api",
@@ -93,7 +98,7 @@
             "date_release": "12/01/2024"
         },
         {
-            "id": 7,
+            "id": 5,
             "name": "Cards de Serviços",
             "description": "Componente desenvolvido em HTML e CSS. Desafio pessoal, apliquei animações CSS neste projeto. Estou muito satisfeito com o resultado.",
             "repository": "https://github.com/JosueCosta2023/cards-html-css",
@@ -103,7 +108,7 @@
             "date_release": "03/02/2024"
         },
         {
-            "id": 9,
+            "id": 6,
             "name": "Landing Page Institucional",
             "description": "LandingPage estática para escolas de cursos, realizado com html, css. Página com redirecionamento para blogs, projeto final de curso de HTML e CSS",
             "repository": "https://github.com/JosueCosta2023/UpInsinde-Quest-BloggerPage",
@@ -113,7 +118,7 @@
             "date_release": "09/03/2024"
         },
         {
-            "id": 10,
+            "id": 7,
             "name": "The Batman Publish",
             "description": "Explore a nova era sombria de Gotham! Nossa landing page, desenvolvida com React e JavaScript, oferece uma prévia exclusiva do próximo capítulo épico do Batman.",
             "repository": "https://github.com/JosueCosta2023/batman-version-react?tab=readme-ov-file",
@@ -123,7 +128,7 @@
             "date_release": "12/03/2024"
         },
         {
-            "id": 11,
+            "id": 8,
             "name": "Seja o Herói",
             "description": "Este sistema tem por finalidade unir ONG's e pessoas dispostas a tornar o mundo um lugar melhor para os animais.",
             "repository": "https://github.com/JosueCosta2023/beTheHero?tab=readme-ov-file",
@@ -133,7 +138,7 @@
             "date_release": "28/03/2024"
         },
         {
-            "id": 12,
+            "id": 9,
             "name": "Pokedex Avançada",
             "description": "Explore os Pokémon com nossa Pokédex React! Consumindo a API Pokédex, alternando entre temas Moon e Sun para uma experiência envolvente.",
             "repository": "https://github.com/JosueCosta2023/pokedex-go",
@@ -146,7 +151,7 @@
 
 
         {
-            "id": 13,
+            "id": 10,
             "name": "Buscador de Descontos",
             "description": "O Buscador de Descontos é um aplicativo desenvolvido para simplificar a busca e utilização de cupons promocionais em lojas parceiras.",
             "repository": "https://github.com/JosueCosta2023/nlw-mobile",
@@ -156,7 +161,7 @@
             "date_release": "21/12/2024"
         },
         {
-            "id": 14,
+            "id": 11,
             "name": "Finance Ai",
             "description": "Finance AI, uma fintech inovadora que une tecnologia de ponta à inteligência artificial para transformar a maneira como você gerencia suas finanças",
             "repository": null,
@@ -164,6 +169,36 @@
             "image": "/assets/images/p14.png",
             "tecnology": "React, Next, TypeScript, ChatGptApi",
             "date_release": "30/12/2024"
+        },
+        {
+            "id": 12,
+            "name": "RocketStore",
+            "description": "Plataforma Ecommerce, forcada na geração de pedidos em pdf's e envio de orçamentos via Whatsapp do cliente.",
+            "repository": "https://github.com/JosueCosta2023/eRockstore-ecommerce",
+            "deploy": "https://main--rocketstore2024.netlify.app/",
+            "image": "/assets/images/p15.png",
+            "tecnology": "HTML, CSS e JavaScript",
+            "date_release": "03/06/2024"
+        },
+        {
+            "id": 13,
+            "name": "MarketPlace Api",
+            "description": "Api marketPlace com CRUD de usuarios e produtos. Realizada na arquitetura SOLID para fins de teste técnico.",
+            "repository": "https://github.com/JosueCosta2023/zeine-marketplace-api",
+            "deploy": "https://zeine-marketplace-api.vercel.app/api/docs#/Usuarios",
+            "image": "/assets/images/p16.png",
+            "tecnology": "node.js, express, postgreSql, Auth-JWT",
+            "date_release": "01/09/2025"
+        },
+        {
+            "id": 14,
+            "name": "MarketPlace Plataforma",
+            "description": "Plataforma de marketPlace e gerenciamento de produtos. Integrada a MarketPlace Api.",
+            "repository": "https://github.com/JosueCosta2023/zeine-marketplace-frontend",
+            "deploy": "https://zeine-marketplace-frontend-otmw.vercel.app/login",
+            "image": "/assets/images/p17.png",
+            "tecnology": "React, TypeScript, TailwindCCSS, Axios",
+            "date_release": "03/06/2024"
         }
     ]
     

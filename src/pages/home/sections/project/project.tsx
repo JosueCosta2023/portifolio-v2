@@ -45,10 +45,9 @@ export const Project = () => {
     <ProjectSectionContainer id="project">
       <div>
         <ContentTitle>
-          <h2>Portfolio</h2>
+          <h2>Meus Projetos</h2>
           <p>
-            Explore meu portfólio e entre em contato para discutir como podemos
-            trabalhar juntos para alcançar seus objetivos digitais.
+            Um pouco de meus conhecimentos, todos estes projetos são de nivel acadêmicos. Realizados para fins de fixação do conhecimento.
           </p>
         </ContentTitle>
 

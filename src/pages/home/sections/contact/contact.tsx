@@ -58,7 +58,7 @@ export const Contact = () => {
                                 </span>
                                 <div>
                                     <span>Endereço:</span>
-                                    <p>São josé do Rio Claro - MT, Brazil</p>
+                                    <p>São josé do Rio Claro - MT, Brasil</p>
                                 </div>
                             </ContactAddressCard>
 

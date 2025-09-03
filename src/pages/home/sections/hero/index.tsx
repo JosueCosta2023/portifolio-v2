@@ -11,16 +11,22 @@ import {
 import ImagemPadrao from '/assets/images/josue.png';
 import { handleClickWhatsapp } from "../../../../components/utils";
 import { ButtomPrimaryNormal } from "../../../../components/buttons/buttonPrimary";
+import dados from "../../../../service/icones.json"
 
 
 export const Hero = () => {
+
+  const data = new Date().getFullYear()
+
   return (
     <HeroSectionContainer id="home">
       <HeroContent>
         <HeroDetails>
           <HeroInfo>
-            <h3>Desenvolvedor Fullstack</h3>
-            <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor web Fullsatck com foco em criar experiências digitais envolventes e funcionais. Minha paixão pela tecnologia me impulsiona a explorar novas ideias e aprimorar constantemente minhas habilidades.</p>
+            <h3>Desenvolvedor Web</h3>
+            <p>Olá! Sou <strong>Josué Ocanha Costa</strong>, um desenvolvedor web em ascenção. Estudo para a area fullStack com foco em tecnologias JavaScript, TypeScript, node.js e React</p>
+            <p>Tenho graduação em <strong>Gestão de Técnologia da Informação</strong> desde 2018 </p>
+            <p>Hoje estou me graduando em <strong>Inteligencia Artificial</strong> pela pucMinas. Previsão para me formar em novembro de 2026.</p>
               <ButtomPrimaryNormal onClick={handleClickWhatsapp}>
                 Fale comigo!<FaWhatsapp/>
               </ButtomPrimaryNormal>
@@ -28,17 +34,17 @@ export const Hero = () => {
 
           <HeroData>
             <HeroDataItem>
-              <strong>2 anos</strong>
+              <strong>{data - 2023} anos</strong>
               <p>Experiência</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>9+</strong>
+              <strong>{dados.projects.length}</strong>
               <p>Projetos</p>
             </HeroDataItem>
 
             <HeroDataItem>
-              <strong>10</strong>
+              <strong>{dados.skills.length}</strong>
               <p>Tecnologias</p>
             </HeroDataItem>
           </HeroData>
