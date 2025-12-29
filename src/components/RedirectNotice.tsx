@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const REDIRECT_URL = "https://portfoliov3-gamma.vercel.app/#";
 const REDIRECT_DELAY = 5000; // 5 segundos
