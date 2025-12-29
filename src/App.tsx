@@ -1,11 +1,13 @@
-import { Home } from "./pages/home"
-function App() {
+import { Home } from "./pages/home";
+import RedirectNotice from "./components/RedirectNotice";
 
+function App() {
   return (
     <>
-        <Home/>
+      <RedirectNotice />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
